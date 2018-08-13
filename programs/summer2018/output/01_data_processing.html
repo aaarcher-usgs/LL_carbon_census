@@ -242,9 +242,24 @@ head(bsdata)
 
 <h2>Step 1: Calculate total biomass by subplot</h2>
 
+<p>Change small envelope mass to be average of 4 tared envelopes</p>
+
+<pre><code class="r">bsdata$bag_wt[bsdata$bag_wt == 2.77] &lt;- 2.7475
+</code></pre>
+
+<p>Change large envelope mass to be average of 4 tared envelopes</p>
+
+<pre><code class="r">bsdata$bag_wt[bsdata$bag_wt == 4.60] &lt;- 4.51
+</code></pre>
+
 <p>Calculate biomass weight</p>
 
 <pre><code class="r">bsdata$biomass_wt &lt;- (bsdata$dried_wt - bsdata$bag_wt)
+</code></pre>
+
+<p>If biomass was negative or 0, make it 0.001</p>
+
+<pre><code class="r">bsdata$biomass_wt[bsdata$biomass_wt &lt;= 0] &lt;- 0.001 
 </code></pre>
 
 <p>Select prairie plots from data</p>
@@ -317,19 +332,19 @@ plot 1, subplot 2</p>
 </code></pre>
 
 <pre><code>##   plot_subplot                        p_sp_spp spp_biomass plot subplot
-## 1      P02_SP1     P02_SP1_Andropogon gerardii        5.70  P02     SP1
-## 2      P02_SP1                  P02_SP1_Litter      123.80  P02     SP1
-## 3      P02_SP1       P02_SP1_Monarda fistulosa        7.36  P02     SP1
-## 4      P02_SP2     P02_SP2_Andropogon gerardii       22.60  P02     SP2
-## 5      P02_SP2 P02_SP2_Heliopsis helianthoides        0.58  P02     SP2
-## 6      P02_SP2                  P02_SP2_Litter       76.90  P02     SP2
+## 1      P02_SP1     P02_SP1_Andropogon gerardii      5.8125  P02     SP1
+## 2      P02_SP1                  P02_SP1_Litter    123.8000  P02     SP1
+## 3      P02_SP1       P02_SP1_Monarda fistulosa      7.3825  P02     SP1
+## 4      P02_SP2     P02_SP2_Andropogon gerardii     22.6000  P02     SP2
+## 5      P02_SP2 P02_SP2_Heliopsis helianthoides      0.6025  P02     SP2
+## 6      P02_SP2                  P02_SP2_Litter     76.9000  P02     SP2
 ##                   species total_biomass
-## 1     Andropogon gerardii        136.86
-## 2                  Litter        136.86
-## 3       Monarda fistulosa        136.86
-## 4     Andropogon gerardii        100.23
-## 5 Heliopsis helianthoides        100.23
-## 6                  Litter        100.23
+## 1     Andropogon gerardii       136.995
+## 2                  Litter       136.995
+## 3       Monarda fistulosa       136.995
+## 4     Andropogon gerardii       100.275
+## 5 Heliopsis helianthoides       100.275
+## 6                  Litter       100.275
 </code></pre>
 
 <pre><code class="r">str(prairie_data)
@@ -338,7 +353,7 @@ plot 1, subplot 2</p>
 <pre><code>## &#39;data.frame&#39;:    188 obs. of  7 variables:
 ##  $ plot_subplot : chr  &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP2&quot; ...
 ##  $ p_sp_spp     : chr  &quot;P02_SP1_Andropogon gerardii&quot; &quot;P02_SP1_Litter&quot; &quot;P02_SP1_Monarda fistulosa&quot; &quot;P02_SP2_Andropogon gerardii&quot; ...
-##  $ spp_biomass  : num  5.7 123.8 7.36 22.6 0.58 ...
+##  $ spp_biomass  : num  5.812 123.8 7.382 22.6 0.603 ...
 ##  $ plot         : Factor w/ 12 levels &quot;P02&quot;,&quot;P05&quot;,&quot;P11&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ subplot      : Factor w/ 3 levels &quot;SP1&quot;,&quot;SP2&quot;,&quot;SP3&quot;: 1 1 1 2 2 2 2 3 3 3 ...
 ##  $ species      : Factor w/ 36 levels &quot;Achillia millefolium&quot;,..: 5 20 21 5 16 20 28 5 16 20 ...
@@ -370,19 +385,19 @@ table(prairie_data$spring_burn)
 </code></pre>
 
 <pre><code>##   plot_subplot                        p_sp_spp spp_biomass plot subplot
-## 1      P02_SP1     P02_SP1_Andropogon gerardii        5.70  P02     SP1
-## 2      P02_SP1                  P02_SP1_Litter      123.80  P02     SP1
-## 3      P02_SP1       P02_SP1_Monarda fistulosa        7.36  P02     SP1
-## 4      P02_SP2     P02_SP2_Andropogon gerardii       22.60  P02     SP2
-## 5      P02_SP2 P02_SP2_Heliopsis helianthoides        0.58  P02     SP2
-## 6      P02_SP2                  P02_SP2_Litter       76.90  P02     SP2
+## 1      P02_SP1     P02_SP1_Andropogon gerardii      5.8125  P02     SP1
+## 2      P02_SP1                  P02_SP1_Litter    123.8000  P02     SP1
+## 3      P02_SP1       P02_SP1_Monarda fistulosa      7.3825  P02     SP1
+## 4      P02_SP2     P02_SP2_Andropogon gerardii     22.6000  P02     SP2
+## 5      P02_SP2 P02_SP2_Heliopsis helianthoides      0.6025  P02     SP2
+## 6      P02_SP2                  P02_SP2_Litter     76.9000  P02     SP2
 ##                   species total_biomass spring_burn
-## 1     Andropogon gerardii        136.86       FALSE
-## 2                  Litter        136.86       FALSE
-## 3       Monarda fistulosa        136.86       FALSE
-## 4     Andropogon gerardii        100.23       FALSE
-## 5 Heliopsis helianthoides        100.23       FALSE
-## 6                  Litter        100.23       FALSE
+## 1     Andropogon gerardii       136.995       FALSE
+## 2                  Litter       136.995       FALSE
+## 3       Monarda fistulosa       136.995       FALSE
+## 4     Andropogon gerardii       100.275       FALSE
+## 5 Heliopsis helianthoides       100.275       FALSE
+## 6                  Litter       100.275       FALSE
 </code></pre>
 
 <pre><code class="r">str(prairie_data)
@@ -391,7 +406,7 @@ table(prairie_data$spring_burn)
 <pre><code>## &#39;data.frame&#39;:    188 obs. of  8 variables:
 ##  $ plot_subplot : chr  &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP2&quot; ...
 ##  $ p_sp_spp     : chr  &quot;P02_SP1_Andropogon gerardii&quot; &quot;P02_SP1_Litter&quot; &quot;P02_SP1_Monarda fistulosa&quot; &quot;P02_SP2_Andropogon gerardii&quot; ...
-##  $ spp_biomass  : num  5.7 123.8 7.36 22.6 0.58 ...
+##  $ spp_biomass  : num  5.812 123.8 7.382 22.6 0.603 ...
 ##  $ plot         : Factor w/ 12 levels &quot;P02&quot;,&quot;P05&quot;,&quot;P11&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ subplot      : Factor w/ 3 levels &quot;SP1&quot;,&quot;SP2&quot;,&quot;SP3&quot;: 1 1 1 2 2 2 2 3 3 3 ...
 ##  $ species      : Factor w/ 36 levels &quot;Achillia millefolium&quot;,..: 5 20 21 5 16 20 28 5 16 20 ...
@@ -479,11 +494,11 @@ prairie_data$total_biomass[prairie_data$p_sp_spp==&quot;P27_SP1_Litter&quot;] &l
 <pre><code>## &#39;data.frame&#39;:    189 obs. of  8 variables:
 ##  $ plot_subplot : chr  &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP2&quot; ...
 ##  $ p_sp_spp     : chr  &quot;P02_SP1_Andropogon gerardii&quot; &quot;P02_SP1_Litter&quot; &quot;P02_SP1_Monarda fistulosa&quot; &quot;P02_SP2_Andropogon gerardii&quot; ...
-##  $ spp_biomass  : chr  &quot;5.7&quot; &quot;123.8&quot; &quot;7.36&quot; &quot;22.6&quot; ...
+##  $ spp_biomass  : chr  &quot;5.8125&quot; &quot;123.8&quot; &quot;7.3825&quot; &quot;22.6&quot; ...
 ##  $ plot         : Factor w/ 12 levels &quot;P02&quot;,&quot;P05&quot;,&quot;P11&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ subplot      : Factor w/ 3 levels &quot;SP1&quot;,&quot;SP2&quot;,&quot;SP3&quot;: 1 1 1 2 2 2 2 3 3 3 ...
 ##  $ species      : Factor w/ 36 levels &quot;Achillia millefolium&quot;,..: 5 20 21 5 16 20 28 5 16 20 ...
-##  $ total_biomass: chr  &quot;136.86&quot; &quot;136.86&quot; &quot;136.86&quot; &quot;100.23&quot; ...
+##  $ total_biomass: chr  &quot;136.995&quot; &quot;136.995&quot; &quot;136.995&quot; &quot;100.275&quot; ...
 ##  $ spring_burn  : chr  &quot;FALSE&quot; &quot;FALSE&quot; &quot;FALSE&quot; &quot;FALSE&quot; ...
 </code></pre>
 
@@ -497,7 +512,7 @@ str(prairie_data)
 <pre><code>## &#39;data.frame&#39;:    189 obs. of  8 variables:
 ##  $ plot_subplot : chr  &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP1&quot; &quot;P02_SP2&quot; ...
 ##  $ p_sp_spp     : chr  &quot;P02_SP1_Andropogon gerardii&quot; &quot;P02_SP1_Litter&quot; &quot;P02_SP1_Monarda fistulosa&quot; &quot;P02_SP2_Andropogon gerardii&quot; ...
-##  $ spp_biomass  : num  5.7 123.8 7.36 22.6 0.58 ...
+##  $ spp_biomass  : num  5.812 123.8 7.383 22.6 0.603 ...
 ##  $ plot         : Factor w/ 12 levels &quot;P02&quot;,&quot;P05&quot;,&quot;P11&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ subplot      : Factor w/ 3 levels &quot;SP1&quot;,&quot;SP2&quot;,&quot;SP3&quot;: 1 1 1 2 2 2 2 3 3 3 ...
 ##  $ species      : Factor w/ 36 levels &quot;Achillia millefolium&quot;,..: 5 20 21 5 16 20 28 5 16 20 ...
@@ -523,12 +538,12 @@ str(prairie_data)
 ## 19      P05_SP2 P05_SP2_Litter        41.6  P05     SP2  Litter
 ## 24      P05_SP3 P05_SP3_Litter        24.4  P05     SP3  Litter
 ##    total_biomass spring_burn
-## 2         136.86       FALSE
-## 6         100.23       FALSE
-## 10        162.40       FALSE
-## 13         44.63       FALSE
-## 19         65.68       FALSE
-## 24         37.19       FALSE
+## 2       136.9950       FALSE
+## 6       100.2750       FALSE
+## 10      162.4225       FALSE
+## 13       44.7200       FALSE
+## 19       66.0400       FALSE
+## 24       37.5500       FALSE
 </code></pre>
 
 <pre><code class="r">str(litter_data)
@@ -541,7 +556,7 @@ str(prairie_data)
 ##  $ plot         : Factor w/ 12 levels &quot;P02&quot;,&quot;P05&quot;,&quot;P11&quot;,..: 1 1 1 2 2 2 3 3 3 4 ...
 ##  $ subplot      : Factor w/ 3 levels &quot;SP1&quot;,&quot;SP2&quot;,&quot;SP3&quot;: 1 2 3 1 2 3 1 2 3 1 ...
 ##  $ species      : Factor w/ 36 levels &quot;Achillia millefolium&quot;,..: 20 20 20 20 20 20 20 20 20 20 ...
-##  $ total_biomass: num  136.9 100.2 162.4 44.6 65.7 ...
+##  $ total_biomass: num  137 100.3 162.4 44.7 66 ...
 ##  $ spring_burn  : chr  &quot;FALSE&quot; &quot;FALSE&quot; &quot;FALSE&quot; &quot;FALSE&quot; ...
 </code></pre>
 
