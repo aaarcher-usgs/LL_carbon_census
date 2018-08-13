@@ -2,7 +2,8 @@
 #' 
 #' **Objective** Effect of Spring Burn on Understory Biomass & Diversity
 #' 
-#' description
+#' Takes raw biomass data and gets it ready for Shannon diversity index processing and
+#' creates a dataset with litter biomass, total biomass, and burn status per subplot.
 #' 
 #' ## Header
 remove(list=ls())
