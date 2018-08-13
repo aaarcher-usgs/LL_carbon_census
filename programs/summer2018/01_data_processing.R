@@ -1,4 +1,6 @@
-#' # Effect of Spring Burn on Understory Biomass & Diversity
+#' # Processing raw biomass data
+#' 
+#' **Objective** Effect of Spring Burn on Understory Biomass & Diversity
 #' 
 #' description
 #' 
@@ -76,11 +78,31 @@ table(prairie_data$spring_burn)
 #' ### Results of Step 2
 head(prairie_data)
 
+#' ## Step 3: Pull out total biomass and litter biomass only
+#' 
+#' How many ways was litter added in as a string?
+table(prairie_data$species)
+# Great! Only one way!
 
+#' Was there litter for every plot?
+table(prairie_data$plot_subplot[prairie_data$species=="Litter"])
+
+#' Plot 27, subplot 1 had no litter, so we will make a new false record with Litter = 0 biomass
+#' 
+prairie_data[nrow(prairie_data)+1,] <- c("P27_SP1", "P27_SP1_Litter", 0, "P27", "SP1", "Litter", NA, TRUE)
+prairie_data$total_biomass[prairie_data$p_sp_spp=="P27_SP1_Litter"] <- 
+  prairie_data$total_biomass[prairie_data$p_sp_spp=="P27_SP1_Achillia millefolium"]
+
+#' Create smaller dataset with just litter records
+litter_data <- prairie_data[prairie_data$species == "Litter",]
+
+#' ### Results of Step 3
+head(litter_data)
 
 #' ## Save data
 #' 
 save(prairie_data, file = "data/processed_data/summer2018_prairie_data.R")
+save(litter_data, file = "data/processed_data/summer2018_litter_data.R")
 
 #' ## Footer
 #' 
