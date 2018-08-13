@@ -52,17 +52,3 @@ prairie_data <- merge(x = prairie_data, y = aggregate_data_plot,
 colnames(prairie_data)
 colnames(prairie_data) <- c("plot_subplot", "p_sp_spp", "spp_biomass", "plot", "subplot", "species", "total_biomass")
 
-
-library(plyr)
-x%>%
-  group_by(prairie_data$subplot)%>%
-  summarise(sum(prairie_data$biomass_wt))
-#' Tried on August 13, 2018
-summarise(group_by(prairie_data,prairie_data$subplot),sum(prairie_data$biomass_wt,na.rm=TRUE))
-
-#' We could not save the biomass total into data, but it shows in console when the data is run.
-#' Renamed variable below 
-library(plyr)
-ddply(prairie_data,.(plot_subplot),summarize,Var=sum(biomass_wt))
-#'The final attempt before giving up on Friday is below.
-prairie_data$biomass_total<- aggregate(prairie_data$biomass_wt,list(sum))
