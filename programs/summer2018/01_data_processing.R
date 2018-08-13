@@ -1,14 +1,21 @@
-#' #Effect of the Spring Burn on Understory Biomass and Diversity
+#' # Effect of Spring Burn on Understory Biomass & Diversity
 #' 
 #' description
 #' 
+#' ## Header
 remove(list=ls())
 library(reshape)
+library(ezknitr)
+library(knitr)
 
+#' ## Load data
+#' 
 #' Load biomass table
-bsdata <- read.csv("Raw_Data/Biomass_Sorting_Data.csv")
+bsdata <- read.csv("data/Raw_Data/Biomass_Sorting_Data.csv")
 head(bsdata)
 
+#' ## Step 1: Calculate total biomass by subplot
+#' 
 #' Calculate biomass weight
 bsdata$biomass_wt <- (bsdata$dried_wt - bsdata$bag_wt)
 
@@ -52,3 +59,31 @@ prairie_data <- merge(x = prairie_data, y = aggregate_data_plot,
 colnames(prairie_data)
 colnames(prairie_data) <- c("plot_subplot", "p_sp_spp", "spp_biomass", "plot", "subplot", "species", "total_biomass")
 
+#' ### Results of Step 1
+head(prairie_data)
+
+#' ## Step 2: Add in burn status
+#' 
+#' Make a list of all spring 2018 burned plots
+burned_plots <- c("P18","P21","P23","P24","P25","P27")
+
+#' Create a new column for burned or not (TRUE/FALSE)
+#' 
+prairie_data$spring_burn[prairie_data$plot %in% burned_plots] <- TRUE
+prairie_data$spring_burn[! prairie_data$plot %in% burned_plots] <- FALSE
+table(prairie_data$spring_burn)
+
+#' ### Results of Step 2
+head(prairie_data)
+
+
+
+#' ## Save data
+#' 
+save(prairie_data, file = "data/processed_data/summer2018_prairie_data.R")
+
+#' ## Footer
+#' 
+#' spun with
+#' ezknitr::ezspin(file = "programs/summer2018/01_data_processing.R", out_dir = "programs/summer2018/output", fig_dir = "figures", keep_md = F)
+#' 
