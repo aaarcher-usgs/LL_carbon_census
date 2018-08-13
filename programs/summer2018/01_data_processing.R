@@ -19,9 +19,18 @@ head(bsdata)
 
 #' ## Step 1: Calculate total biomass by subplot
 #' 
+#' Change small envelope mass to be average of 4 tared envelopes
+bsdata$bag_wt[bsdata$bag_wt == 2.77] <- 2.7475
+
+#' Change large envelope mass to be average of 4 tared envelopes
+bsdata$bag_wt[bsdata$bag_wt == 4.60] <- 4.51
+
+#' 
 #' Calculate biomass weight
 bsdata$biomass_wt <- (bsdata$dried_wt - bsdata$bag_wt)
 
+#' If biomass was negative or 0, make it 0.001
+bsdata$biomass_wt[bsdata$biomass_wt <= 0] <- 0.001 
 
 #' Select prairie plots from data
 prairie_plots <- c(2,5,11,15,16,20,18,21,23,24,25,27)
