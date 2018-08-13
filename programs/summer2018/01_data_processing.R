@@ -64,6 +64,7 @@ colnames(prairie_data) <- c("plot_subplot", "p_sp_spp", "spp_biomass", "plot", "
 
 #' ### Results of Step 1
 head(prairie_data)
+str(prairie_data)
 
 #' ## Step 2: Add in burn status
 #' 
@@ -78,6 +79,7 @@ table(prairie_data$spring_burn)
 
 #' ### Results of Step 2
 head(prairie_data)
+str(prairie_data)
 
 #' ## Step 3: Pull out total biomass and litter biomass only
 #' 
@@ -94,11 +96,19 @@ prairie_data[nrow(prairie_data)+1,] <- c("P27_SP1", "P27_SP1_Litter", 0, "P27", 
 prairie_data$total_biomass[prairie_data$p_sp_spp=="P27_SP1_Litter"] <- 
   prairie_data$total_biomass[prairie_data$p_sp_spp=="P27_SP1_Achillia millefolium"]
 
+#' Adding in the extra row changed biomass values to CHR
+str(prairie_data)
+#' Change them back to numeric
+prairie_data$spp_biomass <- as.numeric(prairie_data$spp_biomass)
+prairie_data$total_biomass <- as.numeric(prairie_data$total_biomass)
+str(prairie_data)
+
 #' Create smaller dataset with just litter records
 litter_data <- prairie_data[prairie_data$species == "Litter",]
 
 #' ### Results of Step 3
 head(litter_data)
+str(litter_data)
 
 #' ## Save data
 #' 
