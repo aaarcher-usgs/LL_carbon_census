@@ -212,6 +212,8 @@ hr {
 <pre><code class="r">remove(list=ls())
 library(ezknitr)
 library(knitr)
+library(lme4)
+library(lmerTest)
 </code></pre>
 
 <h2>Load data</h2>
@@ -221,7 +223,210 @@ library(knitr)
 <pre><code class="r">load(file = &quot;data/processed_data/summer2018_litter_data.R&quot;)
 </code></pre>
 
-<h2>Hypothesis 1: XXX</h2>
+<h2>Hypothesis 1: Spring burn will decrease total understory biomass (live and dead).</h2>
+
+<p>Run the model</p>
+
+<pre><code class="r">hyp1.model &lt;- lmer(formula = (total_biomass) ~ spring_burn + (1|plot), 
+                   data = litter_data, 
+                   REML = TRUE)
+summary(hyp1.model)
+</code></pre>
+
+<pre><code>## Linear mixed model fit by REML. t-tests use Satterthwaite&#39;s method [
+## lmerModLmerTest]
+## Formula: (total_biomass) ~ spring_burn + (1 | plot)
+##    Data: litter_data
+## 
+## REML criterion at convergence: 319.4
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -1.53741 -0.59352  0.04139  0.38388  1.78656 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev.
+##  plot     (Intercept) 511.5    22.62   
+##  Residual             366.0    19.13   
+## Number of obs: 36, groups:  plot, 12
+## 
+## Fixed effects:
+##                 Estimate Std. Error     df t value Pr(&gt;|t|)    
+## (Intercept)       114.83      10.28  10.00  11.175 5.69e-07 ***
+## spring_burnTRUE   -83.15      14.53  10.00  -5.722 0.000192 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr)
+## sprng_bTRUE -0.707
+</code></pre>
+
+<h2>Hypothesis 2: Spring burn will decrease the ratio of litter to total understory</h2>
+
+<p>biomass (live and dead).</p>
+
+<p>Calculate the ratio of litter to total understory biomass</p>
+
+<pre><code class="r">litter_data$ratio_LtoBM &lt;- litter_data$spp_biomass / litter_data$total_biomass
+</code></pre>
+
+<p>Run the model.</p>
+
+<pre><code class="r">hyp2.model &lt;- lmer(formula = (ratio_LtoBM) ~ spring_burn + (1|plot), 
+                   data = litter_data, 
+                   REML = TRUE)
+summary(hyp2.model)
+</code></pre>
+
+<pre><code>## Linear mixed model fit by REML. t-tests use Satterthwaite&#39;s method [
+## lmerModLmerTest]
+## Formula: (ratio_LtoBM) ~ spring_burn + (1 | plot)
+##    Data: litter_data
+## 
+## REML criterion at convergence: -13.7
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -1.3540 -0.5148 -0.1831  0.3807  2.7792 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev.
+##  plot     (Intercept) 0.01415  0.1190  
+##  Residual             0.02460  0.1568  
+## Number of obs: 36, groups:  plot, 12
+## 
+## Fixed effects:
+##                 Estimate Std. Error       df t value Pr(&gt;|t|)    
+## (Intercept)      0.80553    0.06103 10.00000  13.199 1.19e-07 ***
+## spring_burnTRUE -0.54422    0.08631 10.00000  -6.305 8.85e-05 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr)
+## sprng_bTRUE -0.707
+</code></pre>
+
+<h2>Hypothesis 3: Spring burn will increase understory growth &amp; diversity.</h2>
+
+<p>Calculate live understory biomass</p>
+
+<pre><code class="r">litter_data$live_biomass &lt;- litter_data$total_biomass - litter_data$spp_biomass
+</code></pre>
+
+<p>Run the model.</p>
+
+<pre><code class="r">hyp3a.model &lt;- lmer(formula = (live_biomass) ~ spring_burn + (1|plot), 
+                    data = litter_data, 
+                    REML = TRUE)
+summary(hyp3a.model)
+</code></pre>
+
+<pre><code>## Linear mixed model fit by REML. t-tests use Satterthwaite&#39;s method [
+## lmerModLmerTest]
+## Formula: (live_biomass) ~ spring_burn + (1 | plot)
+##    Data: litter_data
+## 
+## REML criterion at convergence: 274.3
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -1.77045 -0.54404  0.02049  0.52727  2.78376 
+## 
+## Random effects:
+##  Groups   Name        Variance  Std.Dev. 
+##  plot     (Intercept) 8.503e-16 2.916e-08
+##  Residual             1.576e+02 1.255e+01
+## Number of obs: 36, groups:  plot, 12
+## 
+## Fixed effects:
+##                 Estimate Std. Error     df t value Pr(&gt;|t|)    
+## (Intercept)       19.843      2.959 34.000   6.705 1.06e-07 ***
+## spring_burnTRUE    3.810      4.185 34.000   0.910    0.369    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr)
+## sprng_bTRUE -0.707
+</code></pre>
+
+<p>Run the model: Richness (S)</p>
+
+<pre><code class="r">hyp3b.model &lt;- lmer(formula = (richness) ~ spring_burn + (1|plot), 
+                   data = litter_data, 
+                   REML = TRUE)
+summary(hyp3b.model)
+</code></pre>
+
+<pre><code>## Linear mixed model fit by REML. t-tests use Satterthwaite&#39;s method [
+## lmerModLmerTest]
+## Formula: (richness) ~ spring_burn + (1 | plot)
+##    Data: litter_data
+## 
+## REML criterion at convergence: 152
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -1.47060 -0.79817  0.06179  0.70656  1.92569 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev.
+##  plot     (Intercept) 1.443    1.201   
+##  Residual             3.389    1.841   
+## Number of obs: 36, groups:  plot, 12
+## 
+## Fixed effects:
+##                 Estimate Std. Error      df t value Pr(&gt;|t|)    
+## (Intercept)       3.1667     0.6548 10.0000   4.836 0.000685 ***
+## spring_burnTRUE   2.1667     0.9260 10.0000   2.340 0.041346 *  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr)
+## sprng_bTRUE -0.707
+</code></pre>
+
+<p>Run the model: Shannon Diversity Index (H)</p>
+
+<pre><code class="r">hyp3c.model &lt;- lmer(formula = (shannon) ~ spring_burn + (1|plot), 
+                    data = litter_data, 
+                    REML = TRUE)
+summary(hyp3c.model)
+</code></pre>
+
+<pre><code>## Linear mixed model fit by REML. t-tests use Satterthwaite&#39;s method [
+## lmerModLmerTest]
+## Formula: (shannon) ~ spring_burn + (1 | plot)
+##    Data: litter_data
+## 
+## REML criterion at convergence: 39.6
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -1.5992 -0.7246  0.1626  0.7489  1.2992 
+## 
+## Random effects:
+##  Groups   Name        Variance Std.Dev.
+##  plot     (Intercept) 0.08954  0.2992  
+##  Residual             0.11018  0.3319  
+## Number of obs: 36, groups:  plot, 12
+## 
+## Fixed effects:
+##                 Estimate Std. Error      df t value Pr(&gt;|t|)   
+## (Intercept)       0.6067     0.1451 10.0000   4.182  0.00188 **
+## spring_burnTRUE   0.2876     0.2052 10.0000   1.402  0.19129   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr)
+## sprng_bTRUE -0.707
+</code></pre>
+
+<h2>Save Results</h2>
 
 <h2>Footer</h2>
 
