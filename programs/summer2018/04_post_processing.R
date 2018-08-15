@@ -6,7 +6,7 @@
 #' respect to burn year.
 #' 
 #' ## Header
-remove(list=ls())
+
 library(ezknitr)
 library(knitr)
 
@@ -15,6 +15,7 @@ library(knitr)
 #' 
 #' Subplot-level data
 load(file = "data/processed_data/summer2018_prairie_data.R")
+
 #' Load biomass table
 bsdata <- read.csv("data/Raw_Data/Biomass_Sorting_Data.csv")
 head(bsdata)
