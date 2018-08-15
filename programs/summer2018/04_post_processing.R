@@ -26,7 +26,7 @@ head(bsdata)
 #' 
 prairie_data$plot_species <- paste(prairie_data$plot, prairie_data$species, sep = "_")
 
-#' Summarize biomass data (sum) by plot_subplot
+#' Summarize biomass data (sum) by plot_species
 aggregate_data_plot_species <- aggregate(prairie_data$spp_biomass, list(prairie_data$plot_species), sum)
 
 #' ## Save Results
