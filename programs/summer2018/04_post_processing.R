@@ -27,26 +27,15 @@ head(bsdata)
 prairie_data$plot_species <- paste(prairie_data$plot, prairie_data$species, sep = "_")
 
 #' Summarize biomass data (sum) by plot_species
-aggregate_data_plot_species <- aggregate(prairie_data$spp_biomass, 
-                                         list(prairie_data$plot_species), FUN = sum)
+plot_species_biomass <- aggregate(prairie_data$spp_biomass, 
+                                         list(prairie_data$plot_species, prairie_data$spring_burn), FUN = sum)
 
 #' Renamed columns in the aggregate temporary hold
-colnames(aggregate_data_plot_species) <- c("plot_species", "biomass")
+colnames(plot_species_biomass) <- c("plot_species", "spring_burn", "biomass")
 
-#'Add burn year to summarization
-#'
-species_biomass <- group_by (prairie_data, plot_species)
-
-#'Can we aggragate without having a value? spring_burn is binary
-species_biomass <- aggregate(prairie_data$spring_burn ~ prairie_data$plot_species, df, )
-
-#' Setkey was another attempt at moving one column (spring_burn) over to aggregate dataset
-setkey(setDT(aggregate_data_plot_species), plot_species)
-aggregate_data_plot_species[prairie_data, spring_burn := i.spring_burn]
-
-#' Does merge work for one column or does it have to be the complete dataset?
-aggregate_data_plot_species <- merge(x = aggregate_data_plot_species, y = prairie_data$spring_burn, 
-                                     by = c("plot_species"))
+#' Create graphs to analize data
+#' 
+barplot(
 
 #' ## Save Results
 #' 
