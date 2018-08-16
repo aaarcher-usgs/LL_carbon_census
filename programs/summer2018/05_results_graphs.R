@@ -19,6 +19,9 @@ load(file = "data/processed_data/summer2018_prairie_data.R")
 #' Biomass by burn and live status
 load(file = "data/processed_data/summer2018_biomass_x_burn.R")
 
+#' Burn versus R(ratio), S(Richness), H(Shannon)
+load(file = "data/processed_data/summer2018_burn_x_RSH.R")
+
 #' ## Figure 1
 #' 
 #+ figure1
@@ -30,7 +33,15 @@ ggplot(aes(y = BM_mean, x = burn_status), data = biomass_x_burn)+
   scale_fill_manual(values=c("#999999", "#E69F00")) +
   theme_classic()
 
-
+#' ## Figure 2
+#' 
+#+ figure2
+ggplot(aes(y = Ratio_mean, x = burn_status), data = burn_x_RSH)+
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin= Ratio_LL, 
+                    ymax= Ratio_UL),
+                width=.2)+
+  theme_classic()
 
 #' ## Footer
 #' 
