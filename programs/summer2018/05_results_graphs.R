@@ -43,6 +43,26 @@ ggplot(aes(y = Ratio_mean, x = burn_status), data = burn_x_RSH)+
                 width=.2)+
   theme_classic()
 
+#'## Figure 3
+#'
+#'#+ figure3
+ggplot(aes(y = richnesS_mean, x = burn_status), data = burn_x_RSH)+
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin= richnesS_LL, 
+                    ymax= richnesS_UL),
+                width=.2)+
+  theme_classic()
+
+#'## Figure 4
+#'
+#'#+ figure4
+ggplot(aes(y = sHannon_mean, x = burn_status), data = burn_x_RSH)+
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin= sHannon_LL, 
+                    ymax= sHannon_UL),
+                width=.2)+
+  theme_classic()
+
 #' ## Footer
 #' 
 #' spun with

@@ -68,10 +68,23 @@ colnames(burn_x_RSH) <- c("burn_status",
                               "Ratio_mean", "Ratio_LL", "Ratio_UL",
                               "richnesS_mean", "richnesS_LL", "richnesS_UL",
                               "sHannon_mean", "sHannon_LL", "sHannon_UL")
+#' Fill burn_status
 burn_x_RSH$burn_status <- c("Unburned", "Burned")
+
+#' Fill Ratio
 burn_x_RSH$Ratio_mean <- c(0.80553, 0.80553-0.54422)
 burn_x_RSH$Ratio_LL <- c(0.80553-0.06103, (0.80553-0.54422)-0.08631)
 burn_x_RSH$Ratio_UL <- c(0.80553+0.06103, (0.80553-0.54422)+0.08631)
+
+#' Fill richnesS
+burn_x_RSH$richnesS_mean <- c(3.1667, 3.1667+2.1667)
+burn_x_RSH$richnesS_LL <- c(3.1667-0.6548, (3.1667+2.1667)-0.9260)
+burn_x_RSH$richnesS_UL <- c(3.1667+0.6548, (3.1667+2.1667)+0.9260)
+
+#'Fill sHannon
+burn_x_RSH$sHannon_mean <- c(0.6067, 0.6067+0.2876)
+burn_x_RSH$sHannon_LL <- c(0.6067-0.1451, (0.6067+0.2876)-0.2052)
+burn_x_RSH$sHannon_UL <- c(0.6067+0.1451, (0.6067+0.2876)+0.2052)
 
 #' ## Create data set with plot and species
 #' 
