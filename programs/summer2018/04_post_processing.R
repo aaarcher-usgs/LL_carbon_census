@@ -40,7 +40,7 @@ liveBM_x_spp <- plot_species_biomass[!plot_species_biomass$species=="Litter",]
 
 #' ## Save Results
 #' 
-save(liveBM_x_spp, file = "data/processed_data/liveBM_x_spp.R")
+save(liveBM_x_spp, file = "data/processed_data/summer2018_liveBM_x_spp.R")
 
 #' ## Footer
 #' 
