@@ -60,6 +60,19 @@ biomass_x_burn$BM_UL <- c(
   114.83+10.28 # unburned, dead
 )
 
+#' ## Create table for figures 2-4
+#' 
+#' Create empty dataset 
+burn_x_RSH <- as.data.frame(matrix(NA, nrow = 2, ncol = 10))
+colnames(burn_x_RSH) <- c("burn_status", 
+                              "Ratio_mean", "Ratio_LL", "Ratio_UL",
+                              "richnesS_mean", "richnesS_LL", "richnesS_UL",
+                              "sHannon_mean", "sHannon_LL", "sHannon_UL")
+burn_x_RSH$burn_status <- c("Unburned", "Burned")
+burn_x_RSH$Ratio_mean <- c(0.80553, 0.80553-0.54422)
+burn_x_RSH$Ratio_LL <- c(0.80553-0.06103, (0.80553-0.54422)-0.08631)
+burn_x_RSH$Ratio_UL <- c(0.80553+0.06103, (0.80553-0.54422)+0.08631)
+
 #' ## Create data set with plot and species
 #' 
 #' #' Create unique identifier
@@ -86,6 +99,7 @@ liveBM_x_spp <- plot_species_biomass[!plot_species_biomass$species=="Litter",]
 #' 
 save(liveBM_x_spp, file = "data/processed_data/summer2018_liveBM_x_spp.R")
 save(biomass_x_burn, file = "data/processed_data/summer2018_biomass_x_burn.R")
+save(burn_x_RSH, file = "data/processed_data/summer2018_burn_x_RSH.R")
 
 #' ## Footer
 #' 

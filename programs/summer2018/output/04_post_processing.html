@@ -279,6 +279,21 @@ biomass_x_burn$BM_UL &lt;- c(
 )
 </code></pre>
 
+<h2>Create table for figures 2-4</h2>
+
+<p>Create empty dataset </p>
+
+<pre><code class="r">burn_x_RSH &lt;- as.data.frame(matrix(NA, nrow = 2, ncol = 10))
+colnames(burn_x_RSH) &lt;- c(&quot;burn_status&quot;, 
+                              &quot;Ratio_mean&quot;, &quot;Ratio_LL&quot;, &quot;Ratio_UL&quot;,
+                              &quot;richnesS_mean&quot;, &quot;richnesS_LL&quot;, &quot;richnesS_UL&quot;,
+                              &quot;sHannon_mean&quot;, &quot;sHannon_LL&quot;, &quot;sHannon_UL&quot;)
+burn_x_RSH$burn_status &lt;- c(&quot;Unburned&quot;, &quot;Burned&quot;)
+burn_x_RSH$Ratio_mean &lt;- c(0.80553, 0.80553-0.54422)
+burn_x_RSH$Ratio_LL &lt;- c(0.80553-0.06103, (0.80553-0.54422)-0.08631)
+burn_x_RSH$Ratio_UL &lt;- c(0.80553+0.06103, (0.80553-0.54422)+0.08631)
+</code></pre>
+
 <h2>Create data set with plot and species</h2>
 
 <p>#&#39; Create unique identifier</p>
@@ -328,6 +343,7 @@ head(plot_species_biomass)
 
 <pre><code class="r">save(liveBM_x_spp, file = &quot;data/processed_data/summer2018_liveBM_x_spp.R&quot;)
 save(biomass_x_burn, file = &quot;data/processed_data/summer2018_biomass_x_burn.R&quot;)
+save(burn_x_RSH, file = &quot;data/processed_data/summer2018_burn_x_RSH.R&quot;)
 </code></pre>
 
 <h2>Footer</h2>
