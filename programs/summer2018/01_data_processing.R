@@ -14,7 +14,9 @@ library(knitr)
 #' ## Load data
 #' 
 #' Load biomass table
-bsdata <- read.csv("data/Raw_Data/Biomass_Sorting_Data.csv")
+bsdata <- read.csv("data/Raw_Data/Biomass_Sorting_Data.csv", 
+                   encoding = "CSV UTF-8")
+colnames(bsdata)[1] <- "plot"
 head(bsdata)
 
 #' ## Step 1: Calculate total biomass by subplot
