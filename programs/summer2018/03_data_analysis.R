@@ -62,6 +62,8 @@ summary(hyp3c.model)
 
 #' ## Save Results
 #' 
+save(hyp1.model, hyp2.model, hyp3a.model, hyp3b.model, hyp3c.model,
+     file = "data/results_data/summer2018_models_out.R")
 
 #' ## Footer
 #' 

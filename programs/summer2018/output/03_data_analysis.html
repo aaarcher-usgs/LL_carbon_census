@@ -213,35 +213,7 @@ hr {
 library(ezknitr)
 library(knitr)
 library(lme4)
-</code></pre>
-
-<pre><code>## Loading required package: Matrix
-</code></pre>
-
-<pre><code>## 
-## Attaching package: &#39;Matrix&#39;
-</code></pre>
-
-<pre><code>## The following object is masked from &#39;package:reshape&#39;:
-## 
-##     expand
-</code></pre>
-
-<pre><code class="r">library(lmerTest)
-</code></pre>
-
-<pre><code>## 
-## Attaching package: &#39;lmerTest&#39;
-</code></pre>
-
-<pre><code>## The following object is masked from &#39;package:lme4&#39;:
-## 
-##     lmer
-</code></pre>
-
-<pre><code>## The following object is masked from &#39;package:stats&#39;:
-## 
-##     step
+library(lmerTest)
 </code></pre>
 
 <h2>Load data</h2>
@@ -455,6 +427,18 @@ summary(hyp3c.model)
 </code></pre>
 
 <h2>Save Results</h2>
+
+<pre><code class="r">save(hyp1.model, hyp2.model, hyp3a.model, hyp3b.model, hyp3c.model,
+     file = &quot;data/results_data/summer2018_models_out.R&quot;)
+</code></pre>
+
+<pre><code>## Warning in gzfile(file, &quot;wb&quot;): cannot open compressed file &#39;data/
+## results_data/summer2018_models_out.R&#39;, probable reason &#39;No such file or
+## directory&#39;
+</code></pre>
+
+<pre><code>## Error in gzfile(file, &quot;wb&quot;): cannot open the connection
+</code></pre>
 
 <h2>Footer</h2>
 
