@@ -218,9 +218,65 @@ library(dplyr)
 
 <h2>Load data</h2>
 
+<p>Model outputs</p>
+
+<pre><code class="r">load(file = &quot;data/results_data/summer2018_models_out.R&quot;)
+</code></pre>
+
 <p>Subplot-level data</p>
 
 <pre><code class="r">load(file = &quot;data/processed_data/summer2018_prairie_data.R&quot;)
+</code></pre>
+
+<p>Plot-level data</p>
+
+<pre><code class="r">load(file = &quot;data/processed_data/summer2018_litter_data.R&quot;)
+</code></pre>
+
+<h2>Populate first table for plotting</h2>
+
+<p>Figure 1 will have total and live biomass by burn status</p>
+
+<p>Calculate live understory biomass</p>
+
+<pre><code class="r">litter_data$live_biomass &lt;- litter_data$total_biomass - litter_data$spp_biomass
+</code></pre>
+
+<p>Create blank dataset to fill in</p>
+
+<pre><code class="r">biomass_x_burn &lt;- as.data.frame(matrix(NA, nrow = 4, ncol = 5))
+colnames(biomass_x_burn) &lt;- c(&quot;burn_status&quot;, &quot;live_status&quot;, &quot;BM_mean&quot;, &quot;BM_LL&quot;, &quot;BM_UL&quot;)
+biomass_x_burn$burn_status &lt;- c(&quot;Burned&quot;, &quot;Burned&quot;, &quot;Unburned&quot;, &quot;Unburned&quot;)
+biomass_x_burn$live_status &lt;- c(&quot;Live&quot;, &quot;Dead&quot;, &quot;Live&quot;, &quot;Dead&quot;)
+</code></pre>
+
+<p>Calculate means</p>
+
+<pre><code class="r">biomass_x_burn$BM_mean[biomass_x_burn$burn_status==&quot;Burned&quot; &amp; biomass_x_burn$live_status == &quot;Live&quot;] &lt;- 
+  mean(litter_data$live_biomass[litter_data$spring_burn==T])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status==&quot;Unburned&quot; &amp; biomass_x_burn$live_status == &quot;Live&quot;] &lt;- 
+  mean(litter_data$live_biomass[litter_data$spring_burn==F])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status==&quot;Burned&quot; &amp; biomass_x_burn$live_status == &quot;Dead&quot;] &lt;- 
+  mean(litter_data$spp_biomass[litter_data$spring_burn==T])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status==&quot;Unburned&quot; &amp; biomass_x_burn$live_status == &quot;Dead&quot;] &lt;- 
+  mean(litter_data$spp_biomass[litter_data$spring_burn==F])
+</code></pre>
+
+<p>Calculate errors</p>
+
+<pre><code class="r">biomass_x_burn$BM_LL &lt;- c(
+  (19.843+3.81)-4.185, #burned, live
+  (114.83-83.15)-14.53, # burned, dead
+  19.843-2.959, # unburned, live
+  114.83-10.28 # unburned, dead
+)
+
+biomass_x_burn$BM_UL &lt;- c(
+  (19.843+3.81)+4.185, #burned, live
+  (114.83-83.15)+14.53, # burned, dead
+  19.843+2.959, # unburned, live
+  114.83+10.28 # unburned, dead
+)
 </code></pre>
 
 <h2>Create data set with plot and species</h2>
@@ -271,6 +327,7 @@ head(plot_species_biomass)
 <h2>Save Results</h2>
 
 <pre><code class="r">save(liveBM_x_spp, file = &quot;data/processed_data/summer2018_liveBM_x_spp.R&quot;)
+save(biomass_x_burn, file = &quot;data/processed_data/summer2018_biomass_x_burn.R&quot;)
 </code></pre>
 
 <h2>Footer</h2>

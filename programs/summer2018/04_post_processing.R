@@ -13,8 +13,52 @@ library(dplyr)
 
 #' ## Load data
 #' 
+#' Model outputs
+load(file = "data/results_data/summer2018_models_out.R")
+
 #' Subplot-level data
 load(file = "data/processed_data/summer2018_prairie_data.R")
+
+#' Plot-level data
+load(file = "data/processed_data/summer2018_litter_data.R")
+
+#' ## Populate first table for plotting 
+#' 
+#' Figure 1 will have total and live biomass by burn status
+#' 
+#' Calculate live understory biomass
+litter_data$live_biomass <- litter_data$total_biomass - litter_data$spp_biomass
+
+#' Create blank dataset to fill in
+biomass_x_burn <- as.data.frame(matrix(NA, nrow = 4, ncol = 5))
+colnames(biomass_x_burn) <- c("burn_status", "live_status", "BM_mean", "BM_LL", "BM_UL")
+biomass_x_burn$burn_status <- c("Burned", "Burned", "Unburned", "Unburned")
+biomass_x_burn$live_status <- c("Live", "Dead", "Live", "Dead")
+
+#' Calculate means
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status=="Burned" & biomass_x_burn$live_status == "Live"] <- 
+  mean(litter_data$live_biomass[litter_data$spring_burn==T])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status=="Unburned" & biomass_x_burn$live_status == "Live"] <- 
+  mean(litter_data$live_biomass[litter_data$spring_burn==F])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status=="Burned" & biomass_x_burn$live_status == "Dead"] <- 
+  mean(litter_data$spp_biomass[litter_data$spring_burn==T])
+biomass_x_burn$BM_mean[biomass_x_burn$burn_status=="Unburned" & biomass_x_burn$live_status == "Dead"] <- 
+  mean(litter_data$spp_biomass[litter_data$spring_burn==F])
+
+#' Calculate errors
+biomass_x_burn$BM_LL <- c(
+  (19.843+3.81)-4.185, #burned, live
+  (114.83-83.15)-14.53, # burned, dead
+  19.843-2.959, # unburned, live
+  114.83-10.28 # unburned, dead
+)
+
+biomass_x_burn$BM_UL <- c(
+  (19.843+3.81)+4.185, #burned, live
+  (114.83-83.15)+14.53, # burned, dead
+  19.843+2.959, # unburned, live
+  114.83+10.28 # unburned, dead
+)
 
 #' ## Create data set with plot and species
 #' 
@@ -41,6 +85,7 @@ liveBM_x_spp <- plot_species_biomass[!plot_species_biomass$species=="Litter",]
 #' ## Save Results
 #' 
 save(liveBM_x_spp, file = "data/processed_data/summer2018_liveBM_x_spp.R")
+save(biomass_x_burn, file = "data/processed_data/summer2018_biomass_x_burn.R")
 
 #' ## Footer
 #' 
