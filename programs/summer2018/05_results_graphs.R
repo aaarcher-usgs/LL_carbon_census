@@ -76,8 +76,11 @@ ggplot(aes(y = sHannon_mean, x = burn_status), data = burn_x_RSH)+
 liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="TRUE"] <- "Burned" 
 liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="FALSE"] <- "Unburned"
 
-
 #' ## Figure 5
+#' 
+#' The which command was supposed to get rid of all the plots that were 0 biomass
+#' facet_wrap cammand sepparates the bars into burned and unburned
+#' facet_grid command is supposed to get rid of the extra space between bars when the plots are 0
 #' 
 #+ figure5
 
