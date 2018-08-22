@@ -40,7 +40,9 @@ ggplot(aes(y = BM_mean, x = burn_status), data = biomass_x_burn)+
                     ymax= BM_UL, color=live_status),
                 width=.2) +
   scale_fill_manual(values=c("#999999", "#E69F00")) +
-  theme_classic()
+  theme_classic() +
+  xlab("Treatment") +
+  ylab("Biomass (dry weight, g)")
 
 #' ## Figure 2
 #' 
@@ -108,13 +110,13 @@ species_names$name2[is.na(species_names$name2)] <- species_names$name[is.na(spec
 
 #' Reorder species
 species_names$order <- as.character(
-  c("10", "11", "26", "26", "01", "12", "02", "03", "13", "04", "26",
-    "14", "15", "05", "26", 
-    "16", "26", "26", "26", 
-    "17", "06", "07", "18", "19", "08", "09", "26",
-    "20", "21",
-    "22", "26", 
-    "23", "24", "26", "25"))
+  c("09", "10", "24", "24", "01", "11", "02", "03", "12", "04", "24",
+    "13", "14", "05", "24", 
+    "15", "24", "24", "24", 
+    "16", "06", "07", "17", "18", "08", "08", "24",
+    "19", "19",
+    "20", "24", 
+    "21", "22", "24", "23"))
 
 #' Merge order number back to main data
 liveBM_x_spp <- merge(x = liveBM_x_spp, y = species_names, by.x = "species", by.y = "V1")
@@ -122,30 +124,87 @@ liveBM_x_spp <- merge(x = liveBM_x_spp, y = species_names, by.x = "species", by.
 #' Create ordered species list
 liveBM_x_spp$spp_order <- paste(liveBM_x_spp$order, liveBM_x_spp$name2, sep = " ")
 
+#' Rename a couple
+liveBM_x_spp$spp_order[liveBM_x_spp$spp_order=="08 Schizachyrium scoparium"|
+                         liveBM_x_spp$spp_order=="08 Schizachyrium scrophulariifolia"] <-
+  "08 Schizachyrium spp."
+liveBM_x_spp$spp_order[liveBM_x_spp$spp_order=="19 Solidago sp."|
+                         liveBM_x_spp$spp_order=="19 Solidago ulmifolia"] <-
+  "19 Solidago spp."
+liveBM_x_spp$spp_order[liveBM_x_spp$order=="11"|
+                         liveBM_x_spp$order=="12"|
+                         liveBM_x_spp$order=="13"|
+                         liveBM_x_spp$order=="06"|
+                         liveBM_x_spp$order=="07"] <- "24 Invasive"
+liveBM_x_spp$spp_order[liveBM_x_spp$spp_order=="23 Viola sp."|
+                         liveBM_x_spp$order=="22"] <- "24 Other"
+
 #' Set colors
-color_scale <- c("#f7fcb9","#e5f5e0","#c7e9c0","#a1d99b", "#74c476", #grasses 5
-                 "#41ab5d", "#238b45", "#006d2c", "#00441b", #grasses 4
-                 "#e0ecf4", "#bfd3e6", "#9ebcda", "#8c96c6", "#8c6bb1", #purples 5
-                 "#88419d", "#810f7c", "#4d004b", #purples 3
-                 #"#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", #orange  5
-                 #"#d7301f", "#b30000", "#7f0000", #orange 3
-                 "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", #blues 5
-                 "#0570b0", "#045a8d", "#023858", #blues 3
-                 #"#7a0177", #extra purple 1
-                 "black" #unknown 1
+color_scale <- c('#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45',"#006d2c",#"#014636", #6
+                 #"#993404", 
+                 "#cc4c02",'#ef6548','#fc8d59','#fdbb84', #5
+                 #'#67001f', '#980043', '#ce1256', '#e7298a', '#df65b0',#pinks 5
+                 # '#c994c7','#d4b9da','#e7e1ef',#pinks 4
+                 '#fcc5c0','#fa9fb5','#f768a1','#dd3497','#ae017e','#7a0177',#'#49006a',
+                 #'#fa9fb5','#fcc5c0', #pinks continued 2
+                 #'#fee8c8','#fdd49e',#'#d7301f', #'#b30000','#7f0000',#orange
+                 #"#a50f15", 
+                 "black", "grey"
                  )
 
 #' Make the figure
-#+ figure5
+#+ figure5_style1
 ggplot(data = liveBM_x_spp,
         aes(y = biomass, x = plot)) +
   geom_bar(stat="identity", aes(fill=spp_order)) +
-  facet_wrap(~spring_burn, scale = "free_x") + 
+  facet_wrap(~spring_burn, scale = "free_x", ncol=1) + 
   scale_fill_manual(values = color_scale) +
   theme_classic()
 
+#' ## Figure 5 - different style
+#' 
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="01"] <- "G1 big bluestem"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="02"] <- "G2 grama grass"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="03"] <- "G3 smooth brome"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="04"] <- "Other"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="05"] <- "G4 wild rye"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="08"] <- "G5 little bluestem"
 
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="09"] <- "F01 yarrow"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="10"] <- "F02 giant blue hyssop"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="14"] <- "F03 purple prairie clover"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="15"] <- "F04 oxeye sunflower"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="16"] <- "F05 wild bergamot"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="17"] <- "F06 prairie coneflower" 
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="18"] <- "F07 black-eyed Susan"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="19"] <- "F08 goldenrod"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="20"] <- "F09 dandelion"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="21"] <- "F10 poison ivy"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="11"|
+                             liveBM_x_spp$order=="12"|
+                             liveBM_x_spp$order=="13"|
+                             liveBM_x_spp$order=="06"|
+                             liveBM_x_spp$order=="07"] <- "Invasive"
+liveBM_x_spp$ID_type_order[liveBM_x_spp$order=="22"|
+                             liveBM_x_spp$order=="23"|
+                             liveBM_x_spp$order=="24"] <- "Other"
 
+#' Set colors
+color_scale2 <- c("#cc4c02",'#ef6548','#fc8d59','#fdbb84', #oranges
+                 '#fcc5c0','#fa9fb5','#f768a1','#dd3497','#ae017e','#7a0177',#purples
+                 '#c7e9c0','#a1d99b','#74c476','#31a354','#006d2c',
+                 #'#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45',"#006d2c",#grasses
+                 "red", "black"
+)
+
+#' Make the figure
+#+ figure5_style2
+ggplot(data = liveBM_x_spp,
+       aes(y = biomass, x = plot)) +
+  geom_bar(stat="identity", aes(fill=ID_type_order)) +
+  facet_wrap(~spring_burn, scale = "free_x", ncol=1) + 
+  scale_fill_manual(values = color_scale2) +
+  theme_classic()
   
 #' ## Footer
 #' 
