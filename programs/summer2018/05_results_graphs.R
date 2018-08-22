@@ -108,9 +108,13 @@ species_names$name2[is.na(species_names$name2)] <- species_names$name[is.na(spec
 
 #' Reorder species
 species_names$order <- as.character(
-  c("10", "11", "12", "13", "01", "14", "02", "03", "15", "04", "16", "17", "18", 
-    "05", "19", "20", "21", "22", "23", "24", "06", "07", "25", "26", "08", "09", 
-    "27", "28", "29", "30", "31", "32", "33", "35", "34"))
+  c("10", "11", "26", "26", "01", "12", "02", "03", "13", "04", "26",
+    "14", "15", "05", "26", 
+    "16", "26", "26", "26", 
+    "17", "06", "07", "18", "19", "08", "09", "26",
+    "20", "21",
+    "22", "26", 
+    "23", "24", "26", "25"))
 
 #' Merge order number back to main data
 liveBM_x_spp <- merge(x = liveBM_x_spp, y = species_names, by.x = "species", by.y = "V1")
@@ -119,16 +123,16 @@ liveBM_x_spp <- merge(x = liveBM_x_spp, y = species_names, by.x = "species", by.
 liveBM_x_spp$spp_order <- paste(liveBM_x_spp$order, liveBM_x_spp$name2, sep = " ")
 
 #' Set colors
-color_scale <- c("#f7fcb9","#e5f5e0","#c7e9c0","#a1d99b", "#74c476", #grasses
-                 "#41ab5d", "#238b45", "#006d2c", "#00441b", #grasses
-                 "#e0ecf4", "#bfd3e6", "#9ebcda", "#8c96c6", "#8c6bb1", #purples
-                 "#88419d", "#810f7c", "#4d004b", #purples
-                 "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", #orange
-                 "#d7301f", "#b30000", "#7f0000", #orange
-                 "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", #blues
-                 "#0570b0", "#045a8d", "#023858", #blues
-                 "#7a0177", #extra purple
-                 "black" #unknown
+color_scale <- c("#f7fcb9","#e5f5e0","#c7e9c0","#a1d99b", "#74c476", #grasses 5
+                 "#41ab5d", "#238b45", "#006d2c", "#00441b", #grasses 4
+                 "#e0ecf4", "#bfd3e6", "#9ebcda", "#8c96c6", "#8c6bb1", #purples 5
+                 "#88419d", "#810f7c", "#4d004b", #purples 3
+                 #"#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", #orange  5
+                 #"#d7301f", "#b30000", "#7f0000", #orange 3
+                 "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", #blues 5
+                 "#0570b0", "#045a8d", "#023858", #blues 3
+                 #"#7a0177", #extra purple 1
+                 "black" #unknown 1
                  )
 
 #' Make the figure
@@ -137,7 +141,7 @@ ggplot(data = liveBM_x_spp,
         aes(y = biomass, x = plot)) +
   geom_bar(stat="identity", aes(fill=spp_order)) +
   facet_wrap(~spring_burn, scale = "free_x") + 
- # scale_fill_manual(values = color_scale) +
+  scale_fill_manual(values = color_scale) +
   theme_classic()
 
 
