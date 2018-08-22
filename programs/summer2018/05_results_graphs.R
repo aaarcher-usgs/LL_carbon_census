@@ -54,7 +54,7 @@ ggplot(aes(y = Ratio_mean, x = burn_status), data = burn_x_RSH)+
 
 #'## Figure 3
 #'
-#'#+ figure3
+#+ figure3
 ggplot(aes(y = richnesS_mean, x = burn_status), data = burn_x_RSH)+
   geom_bar(stat = "identity") +
   geom_errorbar(aes(ymin= richnesS_LL, 
@@ -64,7 +64,8 @@ ggplot(aes(y = richnesS_mean, x = burn_status), data = burn_x_RSH)+
 
 #'## Figure 4
 #'
-#'#+ figure4
+#'
+#+ figure4
 ggplot(aes(y = sHannon_mean, x = burn_status), data = burn_x_RSH)+
   geom_bar(stat = "identity") +
   geom_errorbar(aes(ymin= sHannon_LL, 
@@ -80,7 +81,6 @@ liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="FALSE"] <- "Unburned"
 #' ## Figure 5
 #' 
 #+ figure5
-
 ggplot (data = liveBM_x_spp,
         aes(y = biomass, x = plot)) +
   geom_bar(stat="identity", aes(fill=species)) +
