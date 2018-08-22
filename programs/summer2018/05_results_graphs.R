@@ -73,19 +73,71 @@ ggplot(aes(y = sHannon_mean, x = burn_status), data = burn_x_RSH)+
                 width=.2)+
   theme_classic()
 
-#Rename spring_burn "True" and "False" to "burned" and "unburned"
-liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="TRUE"] <- "Burned" 
-liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="FALSE"] <- "Unburned"
+
 
 
 #' ## Figure 5
 #' 
+#' Process data for figure 5
+#' 
+#' Rename spring_burn "True" and "False" to "burned" and "unburned"
+liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="TRUE"] <- "Burned" 
+liveBM_x_spp$spring_burn[liveBM_x_spp$spring_burn=="FALSE"] <- "Unburned"
+
+#' Extract species name
+species_names <- as.data.frame(
+  matrix(
+    as.character(
+      sort(
+        unique(liveBM_x_spp$species))),
+    nrow = length(unique(liveBM_x_spp$species)),
+    ncol = 1))
+
+species_names$name2[species_names$V1 =="Ambrosa artemisifolia"|
+                      species_names$V1 =="Ambrosa sp."|
+                      species_names$V1 =="Chenopodium album"|
+                      species_names$V1 =="Geum macrophyllum"|
+                      species_names$V1 =="Hypercium perforatum"|
+                      species_names$V1 =="Liatris sp."|
+                      species_names$V1 =="Lithospermum incisum"|
+                      species_names$V1 =="Silphium lacinatum"|
+                      species_names$V1 =="Tephrosia virginiana"|
+                      species_names$V1 =="Unknown"] <- "Other"
+species_names$name <- as.character(species_names$V1)
+species_names$name2[is.na(species_names$name2)] <- species_names$name[is.na(species_names$name2)]
+
+#' Reorder species
+species_names$order <- as.character(
+  c("10", "11", "12", "13", "01", "14", "02", "03", "15", "04", "16", "17", "18", 
+    "05", "19", "20", "21", "22", "23", "24", "06", "07", "25", "26", "08", "09", 
+    "27", "28", "29", "30", "31", "32", "33", "35", "34"))
+
+#' Merge order number back to main data
+liveBM_x_spp <- merge(x = liveBM_x_spp, y = species_names, by.x = "species", by.y = "V1")
+
+#' Create ordered species list
+liveBM_x_spp$spp_order <- paste(liveBM_x_spp$order, liveBM_x_spp$name2, sep = " ")
+
+#' Set colors
+color_scale <- c("#f7fcb9","#e5f5e0","#c7e9c0","#a1d99b", "#74c476", #grasses
+                 "#41ab5d", "#238b45", "#006d2c", "#00441b", #grasses
+                 "#e0ecf4", "#bfd3e6", "#9ebcda", "#8c96c6", "#8c6bb1", #purples
+                 "#88419d", "#810f7c", "#4d004b", #purples
+                 "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", #orange
+                 "#d7301f", "#b30000", "#7f0000", #orange
+                 "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", #blues
+                 "#0570b0", "#045a8d", "#023858", #blues
+                 "#7a0177", #extra purple
+                 "black" #unknown
+                 )
+
+#' Make the figure
 #+ figure5
-ggplot (data = liveBM_x_spp,
+ggplot(data = liveBM_x_spp,
         aes(y = biomass, x = plot)) +
-  geom_bar(stat="identity", aes(fill=species)) +
+  geom_bar(stat="identity", aes(fill=spp_order)) +
   facet_wrap(~spring_burn, scale = "free_x") + 
-  #facet_grid( ~plots, scales = "free_x"))
+ # scale_fill_manual(values = color_scale) +
   theme_classic()
 
 
