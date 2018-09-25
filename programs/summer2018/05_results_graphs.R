@@ -39,7 +39,8 @@ ggplot(aes(y = BM_mean, x = burn_status), data = biomass_x_burn)+
   geom_errorbar(aes(ymin= BM_LL, 
                     ymax= BM_UL, color=live_status),
                 width=.2) +
-  scale_fill_manual(values=c("#999999", "#E69F00")) +
+  scale_fill_manual(values=c("#999999", "#F5CCD7")) +
+  scale_color_manual(values = c("black", "darkred")) +
   theme_classic() +
   xlab("Treatment") +
   ylab("Biomass (dry weight, g)")
@@ -48,20 +49,24 @@ ggplot(aes(y = BM_mean, x = burn_status), data = biomass_x_burn)+
 #' 
 #+ figure2
 ggplot(aes(y = Ratio_mean, x = burn_status), data = burn_x_RSH)+
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#999999") +
   geom_errorbar(aes(ymin= Ratio_LL, 
                     ymax= Ratio_UL),
                 width=.2)+
+  ylab("Ratio of litter to total biomass") +
+  xlab("Burn Status") + 
   theme_classic()
 
 #'## Figure 3
 #'
 #+ figure3
 ggplot(aes(y = richnesS_mean, x = burn_status), data = burn_x_RSH)+
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#999999") +
   geom_errorbar(aes(ymin= richnesS_LL, 
                     ymax= richnesS_UL),
                 width=.2)+
+  ylab("Species Richness") +
+  xlab("Burn Status") + 
   theme_classic()
 
 #'## Figure 4
@@ -69,10 +74,12 @@ ggplot(aes(y = richnesS_mean, x = burn_status), data = burn_x_RSH)+
 #'
 #+ figure4
 ggplot(aes(y = sHannon_mean, x = burn_status), data = burn_x_RSH)+
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#999999") +
   geom_errorbar(aes(ymin= sHannon_LL, 
                     ymax= sHannon_UL),
                 width=.2)+
+  ylab("Shannon Diversity Index") +
+  xlab("Burn Status")+
   theme_classic()
 
 
@@ -204,6 +211,8 @@ ggplot(data = liveBM_x_spp,
   geom_bar(stat="identity", aes(fill=ID_type_order)) +
   facet_wrap(~spring_burn, scale = "free_x", ncol=1) + 
   scale_fill_manual(values = color_scale2) +
+  ylab("Biomass (dry weight, g)") + 
+  xlab("Plot Number") +
   theme_classic()
   
 #' ## Footer
