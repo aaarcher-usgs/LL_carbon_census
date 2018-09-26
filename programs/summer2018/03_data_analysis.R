@@ -37,6 +37,12 @@ hyp2.model <- lmer(formula = (ratio_LtoBM) ~ spring_burn + (1|plot),
                    REML = TRUE)
 summary(hyp2.model)
 
+#' Run a model testing for differences in litter, specifically
+hyp2a.model <- lmer(formula = spp_biomass ~ spring_burn + (1|plot), 
+                   data = litter_data, 
+                   REML = TRUE)
+summary(hyp2a.model)
+
 #' ## Hypothesis 3: Spring burn will increase understory growth & diversity.
 #' 
 #' Calculate live understory biomass
