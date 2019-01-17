@@ -210,10 +210,12 @@ ggplot(data = liveBM_x_spp,
        aes(y = biomass, x = plot)) +
   geom_bar(stat="identity", aes(fill=ID_type_order)) +
   facet_wrap(~spring_burn, scale = "free_x", ncol=1) + 
-  scale_fill_manual(values = color_scale2) +
+  scale_fill_manual(values = color_scale2,
+                    name = "Plant") +
   ylab("Biomass (dry weight, g)") + 
   xlab("Plot Number") +
-  theme_classic()
+  theme_classic()+
+  theme(legend.text = element_text(size=8))
   
 #' ## Footer
 #' 
