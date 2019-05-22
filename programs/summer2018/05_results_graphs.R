@@ -43,7 +43,8 @@ ggplot(aes(y = BM_mean, x = burn_status), data = biomass_x_burn)+
   scale_color_manual(values = c("black", "darkred")) +
   theme_classic() +
   xlab("Treatment") +
-  ylab("Biomass (dry weight, g)")
+  ylab("Biomass (dry weight, g)")+
+  theme(legend.position = "top")
 
 #' ## Figure 2
 #' 
