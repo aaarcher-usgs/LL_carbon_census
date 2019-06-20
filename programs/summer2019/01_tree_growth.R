@@ -31,10 +31,16 @@ tree2019 <- all_data2019[all_data2019$Type=="tree",]
 #' 
 #' We are going to look at tagged trees first, then look at the possibility of 
 #' shrub growth. We are uncertain with how we are going to look at 
-tagged_tree2018 <- tree2018
-
-#' When coding to not include "na," use $tag!="na",
 #' 
+#' When coding to not include "na," use $tag!="na",
+tagged_tree2018 <- tree2018[tree2018$Tag.Number !="na",]
+
+tagged_tree2019 <- tree2019[tree2019$Tag !="na",]
+
+#' Confirmed that data from 2019 is reading each tree at least twice. 
+#' 
+#' We opened the file outside of R to see if data was duplicated and it was.
+#' We are going to need to clean up the file.
 #' 
 
 #' ## Save data
