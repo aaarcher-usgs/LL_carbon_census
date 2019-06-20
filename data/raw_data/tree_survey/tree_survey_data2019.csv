@@ -1,5 +1,634 @@
-<<<<<<< HEAD
-ï»¿Date Surveyed,Plot,X,Y,Type,Common Name,Genus,Species,Distance (m),Direction (Â°),Stems,DBH (cm),Tag Number6-Jun-19,1,278747,5189511,na,na,na,na,na,na,na,na,na6-Jun-19,2,278860,5189508,na,na,na,na,na,na,na,na,na6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.32,290,na,12.1,446-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,4.01,311,na,9.1,456-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.49,322,na,7.4,466-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.05,343,na,7.2,476-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,4.55,32,na,11.2,386-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,1.15,63,na,16.3,396-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,3.2,101,na,7.1,406-Jun-19,3,278950,5189515,tree,Ironwood,Ostrya,virginiana,2.48,183,na,8.7,416-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.44,190,na,9.9,426-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,2.1,203,na,9.2,436-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.7,217,na,2.3,na6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.59,221,na,2.1,na6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.8,223,na,3,na6-Jun-19,3,278950,5189515,tree,Black Cherry,Prunus,serotina,4.47,258,na,4.6,6-Jun-19,3,278950,5189515,shrub,Canada plum,Prunus,nigra,1.39,318,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.21,350,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.75,3,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.93,21,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,2.69,78,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,4.1,49,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,0.7,110,1,na,na13-Jun-19,4,278800,5189427,tree,Hawthorne,Craetagus,sp.,3.6,118,,4,na13-Jun-19,4,278800,5189427,shrub,Twin Flower,Linnaea,sp.,3.4,134,14,na,na6-Jun-19,5,278880,5189387,na,na,na,na,na,na,na,na,na13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,2.79,20,na,8.6,3413-Jun-19,6,278970.5,5189409,tree,Viburnum,VIburnum ,lentago,1.91,46,na,4.5,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,42,na,3.3,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.65,46,na,4.4,na13-Jun-19,6,278970.5,5189409,tree,Red Ash,Fraxinus,pennsylvanica,2.04,60,na,8.4,3513-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.9,70,na,2.2,13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.23,124,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Slippery Elm,Ulmus,rubra,3.47,126,na,2,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,sp.,1.09,232,na,3.6,na13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,3.59,256,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,4.7,266,na,2.2,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,272,na,2.4,na13-Jun-19,6,278970.5,5189409,tree,Burr Oak,Quercus ,macrocarpa,4.92,296,na,13.6,3613-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,3.29,354,na,5.7,3713-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.63,4,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.96,8,na,2.5,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.14,0,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,1.7,34,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.06,70,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2,82,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2.21,102,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.31,126,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Ironwood,Ostrya,virginiana,3.65,164,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.97,194,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Balsam poplar,Populus ,balsamifera,2.68,194,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.95,206,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.2,224,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.69,230,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.84,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,sp.,3,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.57,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.98,248,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.48,248,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.7,250,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,4.25,260,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.73,266,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.97,242,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.72,272,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.34,282,8,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,VIburnum ,lentago,4.04,298,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.21,300,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.97,312,6,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.15,344,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,3.56,346,1,na,na7-Jun-19,7,278863,5189231,tree,Buckthorn,Rhamnus,cathartica,4.27,140,na,2.4,na7-Jun-19,7,278863,5189231,tree,Burr Oak,Quercus ,macrocarpa,1.92,142,na,28.9,107-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,3.71,212,na,3.1,na7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,4.55,218,na,3.5,na7-Jun-19,7,278863,5189231,shrub,Canada plum,Prunus,nigra,2.27,64,1,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.71,74,5,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.53,110,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2,112,3,na,na7-Jun-19,7,278863,5189231,shrub,Plum,Prunus,nigra,2.67,112,2,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.7,148,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.67,142,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.71,156,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.82,186,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4,212,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.41,228,5,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.35,236,7,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.55,218,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.29,242,13,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,4.7,254,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.85,276,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.6,284,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.32,300,1,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,5,300,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3,324,1,na,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.81,36,na,6.3,5114-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,1.47,70,na,4.1,na14-Jun-19,9,279012.6,5189254,tree,European Buckthorn,Rhamnus,cathartica,1.9,76,na,2.8,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.71,76,na,15.3,5214-Jun-19,9,279012.6,5189254,tree,Choke Cherry,Prunus,virginiana,3,80,na,4.7,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.41,86,na,13,5314-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,4.93,104,na,3,na14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,4.71,120,na,7.2,na14-Jun-19,9,279012.6,5189254,tree,Aspen,populus ,tremuloides,2.55,142,na,2.5,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.47,162,na,10.4,5414-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,2.79,156,na,4.1,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,betula,papyrifera,2.97,252,na,15,5514-Jun-19,9,279012.6,5189254,tree,Slippery Elm,Ulmus,rubra,4.65,280,na,12.3,5614-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,4.37,326,na,20.9,5714-Jun-19,9,279012.6,5189254,tree,European buckthorn,Rhamnus,cathartica,3.32,346,na,2,na14-Jun-19,9,279012.6,5189254,shrub,European Buckthorn,Rhamnus,cathartica,3.89,10,1,na,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.8,44,na,2.3,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.89,100,na,8.5,14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.1,152,na,3,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.3,170,na,6.6,4814-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.82,184,na,27.8,4914-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.85,214,na,3.2,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.87,236,na,3.9,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.29,338,na,9.5,505-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.3,44,na,2.5,na5-Jun-19,10,279046,5189192,tree,Red ash,Fraxinus,pennsylvanica,3.7,99,na,4,na5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,3.4,138,na,45.8,55-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.6,152,na,4,na5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,5,162,na,35.5,65-Jun-19,10,279046,5189192,tree,Ironwood,ostrya,virginiana,4.52,219,na,4,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.9,219,na,3.1,na5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,1.76,224,na,12.3,75-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,3.12,224,na,8.1,85-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.44,243,na,4,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,1.4,261,na,4.2,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,3.35,321,na,4.7,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.6,321,na,8.5,95-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.1,345,na,5.8,45-Jun-19,10,279046,5189192,shrub,Twin Flower,Linnaea,sp.,4.65,352,1,na,na5-Jun-19,10,279046,5189192,shrub,Red Ash,Fraxinus,pennsylvanica,2.16,32,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.3,41,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.48,103,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.24,106,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.47,119,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.43,138,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.74,141,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.06,150,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.57,151,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.75,152,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.3,152,2,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.4,152,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.5,171,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.85,162,2,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,3.63,219,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.62,219,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.95,220,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.52,226,1,na,na5-Jun-19,10,279046,5189192,shrub,Ironwood,Ostrya,virginiana,3.67,243,1,na,na7-Jun-19,11,278791,5189124,na,na,na,na,na,na,na,na,na30-May-19,12,278927,5189165,tree,Red Ash,Fraxinus,pennsylvanica,4.89,56,na,17.6,230-May-19,12,278927,5189165,tree,Black Ash,Fraxinus,nigra,4.29,76,na,8,330-May-19,13,279015.8,5189132,tree,Red Ash,Fraxinus,pennsylvanica,1.8,138,na,22.7,130-May-19,13,279015.8,5189132,tree,Canada plum,Prunus ,nigra,2.26,244,na,2.8,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.71,78,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus ,serotina,3,78,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.7,100,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,3.46,122,1,na,na5-Jun-19,14,279163.7,5189109,na,na,na,na,na,na,na,na,na7-Jun-19,15,278679,5188995,na,na,na,na,na,na,na,na,na7-Jun-19,16,278811,5189053,na,na,na,na,na,na,na,na,na30-May-19,17,278876,5188999,tree,Common Apple,Malus,sp. ,4.19,32,na,10.7,2530-May-19,,,,shrub,Hawthorne,Craetagus,sp. ,4.48,242,1,na,na5-Jun-19,18,278980,5188950,na,na,na,na,na,na,na,na,na5-Jun-19,19,279141,5189034,na,na,na,na,na,na,na,na,na7-Jun-19,20,278718,5188835,na,na,na,na,na,na,na,na,na30-May-19,21,278848,51888337,na,na,na,na,na,na,na,na,na30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.93,20,na,17.7,2930-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,4.5,22,na,18.5,3030-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.9,148,na,17.5,3130-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.3,156,na,13.7,3230-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.75,170,na,10.8,3330-May-19,23,278789,5188736,na,na,na,na,na,na,na,na,na5-Jun-19,24,279003.1,5188708,na,na,na,na,na,na,na,na,na5-Jun-19,25,279126,5188787,na,na,na,na,na,na,na,na,na5-Jun-19,27,278797,5188565,na,na,na,na,na,na,na,na,na5-Jun-19,28,278903,5188541,tree,Slippery Elm ,Ulmus,rubra,4.94,3,na,7.3,265-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,3.05,4,na,2.4,na5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,1.52,40,na,2.2,na5-Jun-19,28,278903,5188541,tree,Siberian Elm,Ulmus,pumila,3.6,237,na,24.2,275-Jun-19,28,278903,5188541,tree,Diamond Willow,Salix,bebbiana,5,252,na,9,285-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus,glabra,2.45,92,1,na,na5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus ,glabra,3.2,132,1,na,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1,0,na,2.9,na14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.15,0,na,32.6,2414-Jun-19,26,278670.7,5188677,tree,Hawthorne,Craetagus,sp.,2.55,38,na,2.7,na14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,marocopa,4.99,40,na,16,1114-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.83,56,na,2.2,na14-Jun-19,26,278670.7,5188677,tree,Twin Flower,Linnaea,sp.,2.74,112,na,5.8,1214-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,1.5,120,na,12.4,1314-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,2.52,140,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,2.9,158,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.3,158,na,3.2,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,3.15,158,na,3.8,na14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,3.1,164,na,2.6,na14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,4.43,170,na,3.8,na14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,3.55,170,na,3.7,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,0.84,186,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1.95,194,na,11.5,1414-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,1.88,212,na,2.7,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.18,212,na,8.7,1514-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.55,218,na,15.5,1614-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.26,288,na,16.1,1714-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.54,290,na,23,1814-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,macrocarpa,5,292,na,5.6,1914-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.86,308,na,20.9,2014-Jun-19,26,278670.7,5188677,tree,Yellow Birch,Betula,alleghaniensis,4.35,324,na,3.3,na14-Jun-19,26,278670.7,5188677,tree,Black Ash,Fraxinus,nigra,1.18,330,na,5.6,2114-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.31,352,na,13.1,2214-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,5,2,na,9.1,2314-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.2,4,na,30.1,2414-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.6,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.16,8,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.66,8,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,8,2,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.31,20,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.29,28,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.56,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.68,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.4,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.49,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.87,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.26,34,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,24,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.27,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,5,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.09,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.83,36,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.76,48,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.82,50,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.93,50,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.79,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.15,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.67,60,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.7,62,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.62,62,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Hawthorne,Craetagus,sp.,4.74,68,4,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.25,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.9,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.72,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.15,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.19,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.24,86,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.02,94,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,94,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.89,102,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,112,2,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.12,116,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.45,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.71,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.14,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4,130,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.35,130,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,140,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.05,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.47,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.83,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.69,164,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.35,164,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.89,180,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.98,180,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,180,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.63,180,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.77,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.5,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.28,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.09,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Red Ash,Fraxinus,pennsylvanica,3.33,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.63,204,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.49,204,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.99,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,3.85,218,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.75,220,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.6,224,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.39,224,3,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,4.69,224,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.95,238,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.74,238,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,242,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,242,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,254,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.28,268,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.84,278,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.41,284,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.02,280,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.19,290,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.33,294,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,294,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,318,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.99,320,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,324,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.05,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.5,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.1,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.9,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.12,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.01,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.4,358,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.97,358,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.61,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.36,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.62,0,1,na,na
-=======
-ï»¿Date Surveyed,Plot,X,Y,Type,Common Name,Genus,Species,Distance (m),Direction (deg),Stems,DBH (cm),Tag Number6-Jun-19,1,278747,5189511,na,na,na,na,na,na,na,na,na6-Jun-19,2,278860,5189508,na,na,na,na,na,na,na,na,na6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.32,290,na,12.1,446-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,4.01,311,na,9.1,456-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.49,322,na,7.4,466-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.05,343,na,7.2,476-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,4.55,32,na,11.2,386-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,1.15,63,na,16.3,396-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,3.2,101,na,7.1,406-Jun-19,3,278950,5189515,tree,Ironwood,Ostrya,virginiana,2.48,183,na,8.7,416-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.44,190,na,9.9,426-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,2.1,203,na,9.2,436-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.7,217,na,2.3,na6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.59,221,na,2.1,na6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.8,223,na,3,na6-Jun-19,3,278950,5189515,tree,Black Cherry,Prunus,serotina,4.47,258,na,4.6,6-Jun-19,3,278950,5189515,shrub,Canada plum,Prunus,nigra,1.39,318,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.21,350,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.75,3,1,na,na6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.93,21,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,2.69,78,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,4.1,49,1,na,na6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,0.7,110,1,na,na13-Jun-19,4,278800,5189427,tree,Hawthorne,Craetagus,sp.,3.6,118,,4,na13-Jun-19,4,278800,5189427,shrub,Twin Flower,Linnaea,sp.,3.4,134,14,na,na6-Jun-19,5,278880,5189387,na,na,na,na,na,na,na,na,na13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,2.79,20,na,8.6,3413-Jun-19,6,278970.5,5189409,tree,Viburnum,VIburnum ,lentago,1.91,46,na,4.5,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,42,na,3.3,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.65,46,na,4.4,na13-Jun-19,6,278970.5,5189409,tree,Red Ash,Fraxinus,pennsylvanica,2.04,60,na,8.4,3513-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.9,70,na,2.2,13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.23,124,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Slippery Elm,Ulmus,rubra,3.47,126,na,2,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,sp.,1.09,232,na,3.6,na13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,3.59,256,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,4.7,266,na,2.2,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,272,na,2.4,na13-Jun-19,6,278970.5,5189409,tree,Burr Oak,Quercus ,macrocarpa,4.92,296,na,13.6,3613-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,3.29,354,na,5.7,3713-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.63,4,na,2.1,na13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.96,8,na,2.5,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.14,0,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,1.7,34,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.06,70,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2,82,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2.21,102,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.31,126,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Ironwood,Ostrya,virginiana,3.65,164,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.97,194,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Balsam poplar,Populus ,balsamifera,2.68,194,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.95,206,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.2,224,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.69,230,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.84,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,sp.,3,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.57,244,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.98,248,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.48,248,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.7,250,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,4.25,260,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.73,266,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.97,242,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.72,272,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.34,282,8,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,VIburnum ,lentago,4.04,298,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.21,300,1,na,na13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.97,312,6,na,na13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.15,344,2,na,na13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,3.56,346,1,na,na7-Jun-19,7,278863,5189231,tree,Buckthorn,Rhamnus,cathartica,4.27,140,na,2.4,na7-Jun-19,7,278863,5189231,tree,Burr Oak,Quercus ,macrocarpa,1.92,142,na,28.9,107-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,3.71,212,na,3.1,na7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,4.55,218,na,3.5,na7-Jun-19,7,278863,5189231,shrub,Canada plum,Prunus,nigra,2.27,64,1,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.71,74,5,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.53,110,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2,112,3,na,na7-Jun-19,7,278863,5189231,shrub,Plum,Prunus,nigra,2.67,112,2,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.7,148,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.67,142,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.71,156,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.82,186,1,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4,212,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.41,228,5,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.35,236,7,na,na7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.55,218,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.29,242,13,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,4.7,254,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.85,276,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.6,284,3,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.32,300,1,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,5,300,2,na,na7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3,324,1,na,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.81,36,na,6.3,5114-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,1.47,70,na,4.1,na14-Jun-19,9,279012.6,5189254,tree,European Buckthorn,Rhamnus,cathartica,1.9,76,na,2.8,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.71,76,na,15.3,5214-Jun-19,9,279012.6,5189254,tree,Choke Cherry,Prunus,virginiana,3,80,na,4.7,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.41,86,na,13,5314-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,4.93,104,na,3,na14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,4.71,120,na,7.2,na14-Jun-19,9,279012.6,5189254,tree,Aspen,populus ,tremuloides,2.55,142,na,2.5,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.47,162,na,10.4,5414-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,2.79,156,na,4.1,na14-Jun-19,9,279012.6,5189254,tree,Paper birch,betula,papyrifera,2.97,252,na,15,5514-Jun-19,9,279012.6,5189254,tree,Slippery Elm,Ulmus,rubra,4.65,280,na,12.3,5614-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,4.37,326,na,20.9,5714-Jun-19,9,279012.6,5189254,tree,European buckthorn,Rhamnus,cathartica,3.32,346,na,2,na14-Jun-19,9,279012.6,5189254,shrub,European Buckthorn,Rhamnus,cathartica,3.89,10,1,na,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.8,44,na,2.3,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.89,100,na,8.5,14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.1,152,na,3,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.3,170,na,6.6,4814-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.82,184,na,27.8,4914-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.85,214,na,3.2,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.87,236,na,3.9,na14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.29,338,na,9.5,505-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.3,44,na,2.5,na5-Jun-19,10,279046,5189192,tree,Red ash,Fraxinus,pennsylvanica,3.7,99,na,4,na5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,3.4,138,na,45.8,55-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.6,152,na,4,na5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,5,162,na,35.5,65-Jun-19,10,279046,5189192,tree,Ironwood,ostrya,virginiana,4.52,219,na,4,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.9,219,na,3.1,na5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,1.76,224,na,12.3,75-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,3.12,224,na,8.1,85-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.44,243,na,4,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,1.4,261,na,4.2,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,3.35,321,na,4.7,na5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.6,321,na,8.5,95-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.1,345,na,5.8,45-Jun-19,10,279046,5189192,shrub,Twin Flower,Linnaea,sp.,4.65,352,1,na,na5-Jun-19,10,279046,5189192,shrub,Red Ash,Fraxinus,pennsylvanica,2.16,32,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.3,41,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.48,103,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.24,106,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.47,119,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.43,138,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.74,141,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.06,150,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.57,151,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.75,152,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.3,152,2,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.4,152,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.5,171,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.85,162,2,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,3.63,219,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.62,219,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.95,220,1,na,na5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.52,226,1,na,na5-Jun-19,10,279046,5189192,shrub,Ironwood,Ostrya,virginiana,3.67,243,1,na,na7-Jun-19,11,278791,5189124,na,na,na,na,na,na,na,na,na30-May-19,12,278927,5189165,tree,Red Ash,Fraxinus,pennsylvanica,4.89,56,na,17.6,230-May-19,12,278927,5189165,tree,Black Ash,Fraxinus,nigra,4.29,76,na,8,330-May-19,13,279015.8,5189132,tree,Red Ash,Fraxinus,pennsylvanica,1.8,138,na,22.7,130-May-19,13,279015.8,5189132,tree,Canada plum,Prunus ,nigra,2.26,244,na,2.8,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.71,78,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus ,serotina,3,78,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.7,100,1,na,na30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,3.46,122,1,na,na5-Jun-19,14,279163.7,5189109,na,na,na,na,na,na,na,na,na7-Jun-19,15,278679,5188995,na,na,na,na,na,na,na,na,na7-Jun-19,16,278811,5189053,na,na,na,na,na,na,na,na,na30-May-19,17,278876,5188999,tree,Common Apple,Malus,sp. ,4.19,32,na,10.7,2530-May-19,,,,shrub,Hawthorne,Craetagus,sp. ,4.48,242,1,na,na5-Jun-19,18,278980,5188950,na,na,na,na,na,na,na,na,na5-Jun-19,19,279141,5189034,na,na,na,na,na,na,na,na,na7-Jun-19,20,278718,5188835,na,na,na,na,na,na,na,na,na30-May-19,21,278848,51888337,na,na,na,na,na,na,na,na,na30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.93,20,na,17.7,2930-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,4.5,22,na,18.5,3030-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.9,148,na,17.5,3130-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.3,156,na,13.7,3230-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.75,170,na,10.8,3330-May-19,23,278789,5188736,na,na,na,na,na,na,na,na,na5-Jun-19,24,279003.1,5188708,na,na,na,na,na,na,na,na,na5-Jun-19,25,279126,5188787,na,na,na,na,na,na,na,na,na5-Jun-19,27,278797,5188565,na,na,na,na,na,na,na,na,na5-Jun-19,28,278903,5188541,tree,Slippery Elm ,Ulmus,rubra,4.94,3,na,7.3,265-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,3.05,4,na,2.4,na5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,1.52,40,na,2.2,na5-Jun-19,28,278903,5188541,tree,Siberian Elm,Ulmus,pumila,3.6,237,na,24.2,275-Jun-19,28,278903,5188541,tree,Diamond Willow,Salix,bebbiana,5,252,na,9,285-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus,glabra,2.45,92,1,na,na5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus ,glabra,3.2,132,1,na,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1,0,na,2.9,na14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.15,0,na,32.6,2414-Jun-19,26,278670.7,5188677,tree,Hawthorne,Craetagus,sp.,2.55,38,na,2.7,na14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,marocopa,4.99,40,na,16,1114-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.83,56,na,2.2,na14-Jun-19,26,278670.7,5188677,tree,Twin Flower,Linnaea,sp.,2.74,112,na,5.8,1214-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,1.5,120,na,12.4,1314-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,2.52,140,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,2.9,158,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.3,158,na,3.2,na14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,3.15,158,na,3.8,na14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,3.1,164,na,2.6,na14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,4.43,170,na,3.8,na14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,3.55,170,na,3.7,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,0.84,186,na,2.8,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1.95,194,na,11.5,1414-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,1.88,212,na,2.7,na14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.18,212,na,8.7,1514-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.55,218,na,15.5,1614-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.26,288,na,16.1,1714-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.54,290,na,23,1814-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,macrocarpa,5,292,na,5.6,1914-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.86,308,na,20.9,2014-Jun-19,26,278670.7,5188677,tree,Yellow Birch,Betula,alleghaniensis,4.35,324,na,3.3,na14-Jun-19,26,278670.7,5188677,tree,Black Ash,Fraxinus,nigra,1.18,330,na,5.6,2114-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.31,352,na,13.1,2214-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,5,2,na,9.1,2314-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.2,4,na,30.1,2414-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.6,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.16,8,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.66,8,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,8,2,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.31,20,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.29,28,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.56,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.68,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.4,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.49,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.87,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.26,34,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,24,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.27,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,5,30,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.09,32,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.83,36,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.76,48,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.82,50,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.93,50,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.79,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.15,54,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.67,60,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.7,62,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.62,62,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Hawthorne,Craetagus,sp.,4.74,68,4,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.25,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.9,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.72,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.15,80,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.19,82,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.24,86,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.02,94,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,94,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.89,102,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,112,2,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.12,116,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.45,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.71,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.14,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,120,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4,130,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.35,130,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,140,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.05,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.47,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.83,158,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.69,164,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.35,164,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.89,180,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.98,180,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,180,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.63,180,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.77,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.5,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.28,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,186,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.09,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Red Ash,Fraxinus,pennsylvanica,3.33,194,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.63,204,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.49,204,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.99,212,1,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,3.85,218,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.75,220,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.6,224,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.39,224,3,na,na14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,4.69,224,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.95,238,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.74,238,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,242,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,242,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,254,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.28,268,3,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.84,278,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.41,284,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.02,280,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.19,290,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.33,294,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,294,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,318,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.99,320,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,324,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.05,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.5,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.1,330,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.9,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.12,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.01,344,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.4,358,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.97,358,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.61,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.36,0,1,na,na14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.62,0,1,na,na
->>>>>>> 76335605deb646e25c471858e9ff3bf12060e1ea
+Date,Plot,X,Y,Type,Name,Genus,Species,Distance,Direction,Stems,DBH,Tag
+6-Jun-19,1,278747,5189511,na,na,na,na,na,na,na,na,na
+6-Jun-19,2,278860,5189508,na,na,na,na,na,na,na,na,na
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.32,290,na,12.1,44
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,4.01,311,na,9.1,45
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.49,322,na,7.4,46
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.05,343,na,7.2,47
+6-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,4.55,32,na,11.2,38
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,1.15,63,na,16.3,39
+6-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,3.2,101,na,7.1,40
+6-Jun-19,3,278950,5189515,tree,Ironwood,Ostrya,virginiana,2.48,183,na,8.7,41
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.44,190,na,9.9,42
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,2.1,203,na,9.2,43
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.7,217,na,2.3,na
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.59,221,na,2.1,na
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.8,223,na,3,na
+6-Jun-19,3,278950,5189515,tree,Black Cherry,Prunus,serotina,4.47,258,na,4.6,
+6-Jun-19,3,278950,5189515,shrub,Canada plum,Prunus,nigra,1.39,318,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.21,350,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.75,3,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.93,21,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,2.69,78,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,4.1,49,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,0.7,110,1,na,na
+13-Jun-19,4,278800,5189427,tree,Hawthorne,Craetagus,sp.,3.6,118,,4,na
+13-Jun-19,4,278800,5189427,shrub,Twin Flower,Linnaea,sp.,3.4,134,14,na,na
+6-Jun-19,5,278880,5189387,na,na,na,na,na,na,na,na,na
+13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,2.79,20,na,8.6,34
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,VIburnum ,lentago,1.91,46,na,4.5,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,42,na,3.3,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.65,46,na,4.4,na
+13-Jun-19,6,278970.5,5189409,tree,Red Ash,Fraxinus,pennsylvanica,2.04,60,na,8.4,35
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.9,70,na,2.2,
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.23,124,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Slippery Elm,Ulmus,rubra,3.47,126,na,2,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,sp.,1.09,232,na,3.6,na
+13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,3.59,256,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,4.7,266,na,2.2,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,272,na,2.4,na
+13-Jun-19,6,278970.5,5189409,tree,Burr Oak,Quercus ,macrocarpa,4.92,296,na,13.6,36
+13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,3.29,354,na,5.7,37
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.63,4,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.96,8,na,2.5,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.14,0,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,1.7,34,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.06,70,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2,82,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2.21,102,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.31,126,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Ironwood,Ostrya,virginiana,3.65,164,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.97,194,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Balsam poplar,Populus ,balsamifera,2.68,194,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.95,206,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.2,224,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.69,230,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.84,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,sp.,3,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.57,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.98,248,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.48,248,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.7,250,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,4.25,260,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.73,266,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.97,242,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.72,272,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.34,282,8,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,VIburnum ,lentago,4.04,298,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.21,300,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.97,312,6,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.15,344,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,3.56,346,1,na,na
+7-Jun-19,7,278863,5189231,tree,Buckthorn,Rhamnus,cathartica,4.27,140,na,2.4,na
+7-Jun-19,7,278863,5189231,tree,Burr Oak,Quercus ,macrocarpa,1.92,142,na,28.9,10
+7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,3.71,212,na,3.1,na
+7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,4.55,218,na,3.5,na
+7-Jun-19,7,278863,5189231,shrub,Canada plum,Prunus,nigra,2.27,64,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.71,74,5,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.53,110,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2,112,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Plum,Prunus,nigra,2.67,112,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.7,148,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.67,142,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.71,156,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.82,186,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4,212,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.41,228,5,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.35,236,7,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.55,218,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.29,242,13,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,4.7,254,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.85,276,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.6,284,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.32,300,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,5,300,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3,324,1,na,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.81,36,na,6.3,51
+14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,1.47,70,na,4.1,na
+14-Jun-19,9,279012.6,5189254,tree,European Buckthorn,Rhamnus,cathartica,1.9,76,na,2.8,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.71,76,na,15.3,52
+14-Jun-19,9,279012.6,5189254,tree,Choke Cherry,Prunus,virginiana,3,80,na,4.7,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.41,86,na,13,53
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,4.93,104,na,3,na
+14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,4.71,120,na,7.2,na
+14-Jun-19,9,279012.6,5189254,tree,Aspen,populus ,tremuloides,2.55,142,na,2.5,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.47,162,na,10.4,54
+14-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,2.79,156,na,4.1,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,betula,papyrifera,2.97,252,na,15,55
+14-Jun-19,9,279012.6,5189254,tree,Slippery Elm,Ulmus,rubra,4.65,280,na,12.3,56
+14-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,4.37,326,na,20.9,57
+14-Jun-19,9,279012.6,5189254,tree,European buckthorn,Rhamnus,cathartica,3.32,346,na,2,na
+14-Jun-19,9,279012.6,5189254,shrub,European Buckthorn,Rhamnus,cathartica,3.89,10,1,na,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.8,44,na,2.3,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.89,100,na,8.5,
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.1,152,na,3,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.3,170,na,6.6,48
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.82,184,na,27.8,49
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.85,214,na,3.2,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.87,236,na,3.9,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.29,338,na,9.5,50
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.3,44,na,2.5,na
+5-Jun-19,10,279046,5189192,tree,Red ash,Fraxinus,pennsylvanica,3.7,99,na,4,na
+5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,3.4,138,na,45.8,5
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.6,152,na,4,na
+5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,5,162,na,35.5,6
+5-Jun-19,10,279046,5189192,tree,Ironwood,ostrya,virginiana,4.52,219,na,4,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.9,219,na,3.1,na
+5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,1.76,224,na,12.3,7
+5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,3.12,224,na,8.1,8
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.44,243,na,4,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,1.4,261,na,4.2,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,3.35,321,na,4.7,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.6,321,na,8.5,9
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.1,345,na,5.8,4
+5-Jun-19,10,279046,5189192,shrub,Twin Flower,Linnaea,sp.,4.65,352,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Red Ash,Fraxinus,pennsylvanica,2.16,32,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.3,41,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.48,103,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.24,106,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.47,119,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.43,138,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.74,141,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.06,150,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.57,151,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.75,152,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.3,152,2,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.4,152,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.5,171,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.85,162,2,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,3.63,219,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.62,219,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.95,220,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.52,226,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Ironwood,Ostrya,virginiana,3.67,243,1,na,na
+7-Jun-19,11,278791,5189124,na,na,na,na,na,na,na,na,na
+30-May-19,12,278927,5189165,tree,Red Ash,Fraxinus,pennsylvanica,4.89,56,na,17.6,2
+30-May-19,12,278927,5189165,tree,Black Ash,Fraxinus,nigra,4.29,76,na,8,3
+30-May-19,13,279015.8,5189132,tree,Red Ash,Fraxinus,pennsylvanica,1.8,138,na,22.7,1
+30-May-19,13,279015.8,5189132,tree,Canada plum,Prunus ,nigra,2.26,244,na,2.8,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.71,78,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus ,serotina,3,78,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.7,100,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,3.46,122,1,na,na
+5-Jun-19,14,279163.7,5189109,na,na,na,na,na,na,na,na,na
+7-Jun-19,15,278679,5188995,na,na,na,na,na,na,na,na,na
+7-Jun-19,16,278811,5189053,na,na,na,na,na,na,na,na,na
+30-May-19,17,278876,5188999,tree,Common Apple,Malus,sp. ,4.19,32,na,10.7,25
+30-May-19,,,,shrub,Hawthorne,Craetagus,sp. ,4.48,242,1,na,na
+5-Jun-19,18,278980,5188950,na,na,na,na,na,na,na,na,na
+5-Jun-19,19,279141,5189034,na,na,na,na,na,na,na,na,na
+7-Jun-19,20,278718,5188835,na,na,na,na,na,na,na,na,na
+30-May-19,21,278848,51888337,na,na,na,na,na,na,na,na,na
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.93,20,na,17.7,29
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,4.5,22,na,18.5,30
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.9,148,na,17.5,31
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.3,156,na,13.7,32
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.75,170,na,10.8,33
+30-May-19,23,278789,5188736,na,na,na,na,na,na,na,na,na
+5-Jun-19,24,279003.1,5188708,na,na,na,na,na,na,na,na,na
+5-Jun-19,25,279126,5188787,na,na,na,na,na,na,na,na,na
+5-Jun-19,27,278797,5188565,na,na,na,na,na,na,na,na,na
+5-Jun-19,28,278903,5188541,tree,Slippery Elm ,Ulmus,rubra,4.94,3,na,7.3,26
+5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,3.05,4,na,2.4,na
+5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,1.52,40,na,2.2,na
+5-Jun-19,28,278903,5188541,tree,Siberian Elm,Ulmus,pumila,3.6,237,na,24.2,27
+5-Jun-19,28,278903,5188541,tree,Diamond Willow,Salix,bebbiana,5,252,na,9,28
+5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus,glabra,2.45,92,1,na,na
+5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus ,glabra,3.2,132,1,na,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1,0,na,2.9,na
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.15,0,na,32.6,24
+14-Jun-19,26,278670.7,5188677,tree,Hawthorne,Craetagus,sp.,2.55,38,na,2.7,na
+14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,marocopa,4.99,40,na,16,11
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.83,56,na,2.2,na
+14-Jun-19,26,278670.7,5188677,tree,Twin Flower,Linnaea,sp.,2.74,112,na,5.8,12
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,1.5,120,na,12.4,13
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,2.52,140,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,2.9,158,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.3,158,na,3.2,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,3.15,158,na,3.8,na
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,3.1,164,na,2.6,na
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,4.43,170,na,3.8,na
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,3.55,170,na,3.7,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,0.84,186,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1.95,194,na,11.5,14
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,1.88,212,na,2.7,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.18,212,na,8.7,15
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.55,218,na,15.5,16
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.26,288,na,16.1,17
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.54,290,na,23,18
+14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,macrocarpa,5,292,na,5.6,19
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.86,308,na,20.9,20
+14-Jun-19,26,278670.7,5188677,tree,Yellow Birch,Betula,alleghaniensis,4.35,324,na,3.3,na
+14-Jun-19,26,278670.7,5188677,tree,Black Ash,Fraxinus,nigra,1.18,330,na,5.6,21
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.31,352,na,13.1,22
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,5,2,na,9.1,23
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.2,4,na,30.1,24
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.6,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.16,8,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.66,8,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,8,2,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.31,20,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.29,28,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.56,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.68,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.4,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.49,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.87,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.26,34,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,24,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.27,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,5,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.09,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.83,36,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.76,48,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.82,50,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.93,50,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.79,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.15,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.67,60,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.7,62,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.62,62,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Hawthorne,Craetagus,sp.,4.74,68,4,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.25,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.9,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.72,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.15,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.19,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.24,86,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.02,94,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,94,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.89,102,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,112,2,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.12,116,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.45,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.71,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.14,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4,130,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.35,130,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,140,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.05,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.47,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.83,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.69,164,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.35,164,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.89,180,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.98,180,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,180,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.63,180,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.77,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.5,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.28,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.09,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Red Ash,Fraxinus,pennsylvanica,3.33,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.63,204,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.49,204,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.99,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,3.85,218,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.75,220,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.6,224,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.39,224,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,4.69,224,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.95,238,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.74,238,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,242,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,242,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,254,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.28,268,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.84,278,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.41,284,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.02,280,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.19,290,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.33,294,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,294,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,318,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.99,320,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,324,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.05,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.5,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.1,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.9,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.12,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.01,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.4,358,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.97,358,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.61,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.36,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.62,0,1,na,na
+=======,,,,,,,,,,,,
+•ÈÀDate Surveyed,Plot,X,Y,Type,Common Name,Genus,Species,Distance (m),Direction (deg),Stems,DBH (cm),Tag Number
+6-Jun-19,1,278747,5189511,na,na,na,na,na,na,na,na,na
+6-Jun-19,2,278860,5189508,na,na,na,na,na,na,na,na,na
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.32,290,na,12.1,44
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,4.01,311,na,9.1,45
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,3.49,322,na,7.4,46
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.05,343,na,7.2,47
+6-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,4.55,32,na,11.2,38
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,1.15,63,na,16.3,39
+6-Jun-19,3,278950,5189515,tree,Basswood,Tilia,americana,3.2,101,na,7.1,40
+6-Jun-19,3,278950,5189515,tree,Ironwood,Ostrya,virginiana,2.48,183,na,8.7,41
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.44,190,na,9.9,42
+6-Jun-19,3,278950,5189515,tree,Black Ash,Fraxinus,nigra,2.1,203,na,9.2,43
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,2.7,217,na,2.3,na
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.59,221,na,2.1,na
+6-Jun-19,3,278950,5189515,tree,Aspen,Populus ,tremuloides,4.8,223,na,3,na
+6-Jun-19,3,278950,5189515,tree,Black Cherry,Prunus,serotina,4.47,258,na,4.6,
+6-Jun-19,3,278950,5189515,shrub,Canada plum,Prunus,nigra,1.39,318,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.21,350,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.75,3,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Choke Cherry,Prunus,virginiana,4.93,21,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,2.69,78,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,4.1,49,1,na,na
+6-Jun-19,3,278950,5189515,shrub,Aspen,Populus ,tremuloides,0.7,110,1,na,na
+13-Jun-19,4,278800,5189427,tree,Hawthorne,Craetagus,sp.,3.6,118,,4,na
+13-Jun-19,4,278800,5189427,shrub,Twin Flower,Linnaea,sp.,3.4,134,14,na,na
+6-Jun-19,5,278880,5189387,na,na,na,na,na,na,na,na,na
+13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,2.79,20,na,8.6,34
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,VIburnum ,lentago,1.91,46,na,4.5,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,42,na,3.3,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.65,46,na,4.4,na
+13-Jun-19,6,278970.5,5189409,tree,Red Ash,Fraxinus,pennsylvanica,2.04,60,na,8.4,35
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.9,70,na,2.2,
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.23,124,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Slippery Elm,Ulmus,rubra,3.47,126,na,2,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,sp.,1.09,232,na,3.6,na
+13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,3.59,256,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Choke Cherry,Prunus,virginiana,4.7,266,na,2.2,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,3.85,272,na,2.4,na
+13-Jun-19,6,278970.5,5189409,tree,Burr Oak,Quercus ,macrocarpa,4.92,296,na,13.6,36
+13-Jun-19,6,278970.5,5189409,tree,Ironwood,Ostrya,virginiana,3.29,354,na,5.7,37
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.63,4,na,2.1,na
+13-Jun-19,6,278970.5,5189409,tree,Viburnum,Viburnum ,lentago,2.96,8,na,2.5,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.14,0,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,1.7,34,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.06,70,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2,82,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,2.21,102,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.31,126,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Ironwood,Ostrya,virginiana,3.65,164,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.97,194,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Balsam poplar,Populus ,balsamifera,2.68,194,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.95,206,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.2,224,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.69,230,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.84,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,sp.,3,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.57,244,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.98,248,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.48,248,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.7,250,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,4.25,260,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,1.73,266,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.97,242,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,2.72,272,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,3.34,282,8,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,VIburnum ,lentago,4.04,298,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,4.21,300,1,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Choke Cherry,Prunus,virginiana,3.97,312,6,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Viburnum,Viburnum ,lentago,4.15,344,2,na,na
+13-Jun-19,6,278970.5,5189409,shrub,Canada plum,Prunus,nigra,3.56,346,1,na,na
+7-Jun-19,7,278863,5189231,tree,Buckthorn,Rhamnus,cathartica,4.27,140,na,2.4,na
+7-Jun-19,7,278863,5189231,tree,Burr Oak,Quercus ,macrocarpa,1.92,142,na,28.9,10
+7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,3.71,212,na,3.1,na
+7-Jun-19,7,278863,5189231,tree,Choke Cherry,Prunus,virginiana,4.55,218,na,3.5,na
+7-Jun-19,7,278863,5189231,shrub,Canada plum,Prunus,nigra,2.27,64,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.71,74,5,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,1.53,110,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2,112,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Plum,Prunus,nigra,2.67,112,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.7,148,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.67,142,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.71,156,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,2.82,186,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4,212,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.41,228,5,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.35,236,7,na,na
+7-Jun-19,7,278863,5189231,shrub,Choke Cherry,Prunus,virginiana,4.55,218,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.29,242,13,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,4.7,254,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,2.85,276,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.6,284,3,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3.32,300,1,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,5,300,2,na,na
+7-Jun-19,7,278863,5189231,shrub,Twin Flower,Linnaea,sp.,3,324,1,na,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.81,36,na,6.3,51
+14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,1.47,70,na,4.1,na
+14-Jun-19,9,279012.6,5189254,tree,European Buckthorn,Rhamnus,cathartica,1.9,76,na,2.8,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.71,76,na,15.3,52
+14-Jun-19,9,279012.6,5189254,tree,Choke Cherry,Prunus,virginiana,3,80,na,4.7,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,3.41,86,na,13,53
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,4.93,104,na,3,na
+14-Jun-19,9,279012.6,5189254,tree,Red Ash,Fraxinus,pennsylvanica,4.71,120,na,7.2,na
+14-Jun-19,9,279012.6,5189254,tree,Aspen,populus ,tremuloides,2.55,142,na,2.5,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,Betula,papyrifera,2.47,162,na,10.4,54
+14-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,2.79,156,na,4.1,na
+14-Jun-19,9,279012.6,5189254,tree,Paper birch,betula,papyrifera,2.97,252,na,15,55
+14-Jun-19,9,279012.6,5189254,tree,Slippery Elm,Ulmus,rubra,4.65,280,na,12.3,56
+14-Jun-19,9,279012.6,5189254,tree,Aspen,Populus ,tremuloides,4.37,326,na,20.9,57
+14-Jun-19,9,279012.6,5189254,tree,European buckthorn,Rhamnus,cathartica,3.32,346,na,2,na
+14-Jun-19,9,279012.6,5189254,shrub,European Buckthorn,Rhamnus,cathartica,3.89,10,1,na,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.8,44,na,2.3,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.89,100,na,8.5,
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.1,152,na,3,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.3,170,na,6.6,48
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,2.82,184,na,27.8,49
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.85,214,na,3.2,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,4.87,236,na,3.9,na
+14-Jun-19,8,278944.3,5189267,tree,Red Ash,Fraxinus,pennsylvanica,3.29,338,na,9.5,50
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.3,44,na,2.5,na
+5-Jun-19,10,279046,5189192,tree,Red ash,Fraxinus,pennsylvanica,3.7,99,na,4,na
+5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,3.4,138,na,45.8,5
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.6,152,na,4,na
+5-Jun-19,10,279046,5189192,tree,Red Oak,Quercus ,rubra,5,162,na,35.5,6
+5-Jun-19,10,279046,5189192,tree,Ironwood,ostrya,virginiana,4.52,219,na,4,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.9,219,na,3.1,na
+5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,1.76,224,na,12.3,7
+5-Jun-19,10,279046,5189192,tree,Red Ash,Fraxinus,pennsylvanica,3.12,224,na,8.1,8
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.44,243,na,4,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,1.4,261,na,4.2,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,3.35,321,na,4.7,na
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,4.6,321,na,8.5,9
+5-Jun-19,10,279046,5189192,tree,Ironwood,Ostrya,virginiana,2.1,345,na,5.8,4
+5-Jun-19,10,279046,5189192,shrub,Twin Flower,Linnaea,sp.,4.65,352,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Red Ash,Fraxinus,pennsylvanica,2.16,32,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.3,41,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.48,103,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.24,106,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.47,119,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.43,138,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.74,141,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.06,150,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.57,151,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.75,152,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.3,152,2,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,2.4,152,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,1.5,171,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.85,162,2,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,3.63,219,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.62,219,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.95,220,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Buckthorn,Rhamnus,sp.,4.52,226,1,na,na
+5-Jun-19,10,279046,5189192,shrub,Ironwood,Ostrya,virginiana,3.67,243,1,na,na
+7-Jun-19,11,278791,5189124,na,na,na,na,na,na,na,na,na
+30-May-19,12,278927,5189165,tree,Red Ash,Fraxinus,pennsylvanica,4.89,56,na,17.6,2
+30-May-19,12,278927,5189165,tree,Black Ash,Fraxinus,nigra,4.29,76,na,8,3
+30-May-19,13,279015.8,5189132,tree,Red Ash,Fraxinus,pennsylvanica,1.8,138,na,22.7,1
+30-May-19,13,279015.8,5189132,tree,Canada plum,Prunus ,nigra,2.26,244,na,2.8,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.71,78,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus ,serotina,3,78,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,4.7,100,1,na,na
+30-May-19,13,279015.8,5189132,shrub,Black Cherry,Prunus,serotina,3.46,122,1,na,na
+5-Jun-19,14,279163.7,5189109,na,na,na,na,na,na,na,na,na
+7-Jun-19,15,278679,5188995,na,na,na,na,na,na,na,na,na
+7-Jun-19,16,278811,5189053,na,na,na,na,na,na,na,na,na
+30-May-19,17,278876,5188999,tree,Common Apple,Malus,sp. ,4.19,32,na,10.7,25
+30-May-19,,,,shrub,Hawthorne,Craetagus,sp. ,4.48,242,1,na,na
+5-Jun-19,18,278980,5188950,na,na,na,na,na,na,na,na,na
+5-Jun-19,19,279141,5189034,na,na,na,na,na,na,na,na,na
+7-Jun-19,20,278718,5188835,na,na,na,na,na,na,na,na,na
+30-May-19,21,278848,51888337,na,na,na,na,na,na,na,na,na
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.93,20,na,17.7,29
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,4.5,22,na,18.5,30
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.9,148,na,17.5,31
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,3.3,156,na,13.7,32
+30-May-19,22,278773,5188769,tree,Box Elder,Acer,negundo,1.75,170,na,10.8,33
+30-May-19,23,278789,5188736,na,na,na,na,na,na,na,na,na
+5-Jun-19,24,279003.1,5188708,na,na,na,na,na,na,na,na,na
+5-Jun-19,25,279126,5188787,na,na,na,na,na,na,na,na,na
+5-Jun-19,27,278797,5188565,na,na,na,na,na,na,na,na,na
+5-Jun-19,28,278903,5188541,tree,Slippery Elm ,Ulmus,rubra,4.94,3,na,7.3,26
+5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,3.05,4,na,2.4,na
+5-Jun-19,28,278903,5188541,tree,Smooth Sumac,Rhus,glabra,1.52,40,na,2.2,na
+5-Jun-19,28,278903,5188541,tree,Siberian Elm,Ulmus,pumila,3.6,237,na,24.2,27
+5-Jun-19,28,278903,5188541,tree,Diamond Willow,Salix,bebbiana,5,252,na,9,28
+5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus,glabra,2.45,92,1,na,na
+5-Jun-19,28,278903,5188541,shrub,Smooth Sumac,Rhus ,glabra,3.2,132,1,na,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1,0,na,2.9,na
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.15,0,na,32.6,24
+14-Jun-19,26,278670.7,5188677,tree,Hawthorne,Craetagus,sp.,2.55,38,na,2.7,na
+14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,marocopa,4.99,40,na,16,11
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.83,56,na,2.2,na
+14-Jun-19,26,278670.7,5188677,tree,Twin Flower,Linnaea,sp.,2.74,112,na,5.8,12
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,1.5,120,na,12.4,13
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,2.52,140,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,2.9,158,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,4.3,158,na,3.2,na
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,3.15,158,na,3.8,na
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,3.1,164,na,2.6,na
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,4.43,170,na,3.8,na
+14-Jun-19,26,278670.7,5188677,tree,Viburnum,Viburnum ,lentago,3.55,170,na,3.7,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,0.84,186,na,2.8,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,1.95,194,na,11.5,14
+14-Jun-19,26,278670.7,5188677,tree,European Buckthorn,Rhamnus,cathartica,1.88,212,na,2.7,na
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.18,212,na,8.7,15
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.55,218,na,15.5,16
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.26,288,na,16.1,17
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.54,290,na,23,18
+14-Jun-19,26,278670.7,5188677,tree,Burr Oak,Quercus ,macrocarpa,5,292,na,5.6,19
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,2.86,308,na,20.9,20
+14-Jun-19,26,278670.7,5188677,tree,Yellow Birch,Betula,alleghaniensis,4.35,324,na,3.3,na
+14-Jun-19,26,278670.7,5188677,tree,Black Ash,Fraxinus,nigra,1.18,330,na,5.6,21
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,4.31,352,na,13.1,22
+14-Jun-19,26,278670.7,5188677,tree,Quaking Aspen,Populus ,tremuloides,5,2,na,9.1,23
+14-Jun-19,26,278670.7,5188677,tree,Red Ash,Fraxinus,pennsylvanica,4.2,4,na,30.1,24
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.6,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.16,8,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.66,8,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,8,2,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.31,20,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.29,28,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.56,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.68,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.4,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.49,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.87,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.26,34,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,24,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.27,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,5,30,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.09,32,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.83,36,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.76,48,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.82,50,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.93,50,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.79,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.15,54,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.67,60,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.7,62,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.62,62,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Hawthorne,Craetagus,sp.,4.74,68,4,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.25,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.9,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.72,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.15,80,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.19,82,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.24,86,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.02,94,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,94,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.89,102,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.03,112,2,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.12,116,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.45,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.71,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.14,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,120,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4,130,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.35,130,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.1,140,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.05,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.47,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.83,158,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.69,164,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.35,164,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.89,180,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.98,180,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,180,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.63,180,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.77,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.5,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.28,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,186,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.09,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Red Ash,Fraxinus,pennsylvanica,3.33,194,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.63,204,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,1.49,204,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.43,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.99,212,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,3.85,218,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.75,220,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.6,224,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.39,224,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,Quaking Aspen,Populus ,tremuloides,4.69,224,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.95,238,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.74,238,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,242,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.84,242,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.69,254,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.28,268,3,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.84,278,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.41,284,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.02,280,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.19,290,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.33,294,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.7,294,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.85,318,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,1.99,320,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,324,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.9,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.05,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.34,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.5,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.1,330,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.9,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.12,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.01,344,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,0.4,358,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,2.97,358,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,3.61,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.36,0,1,na,na
+14-Jun-19,26,278670.7,5188677,shrub,European Buckthorn,Rhamnus,cathartica,4.62,0,1,na,na
+>>>>>>> 76335605deb646e25c471858e9ff3bf12060e1ea,,,,,,,,,,,,
