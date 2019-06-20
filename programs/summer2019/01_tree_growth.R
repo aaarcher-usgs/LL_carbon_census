@@ -8,6 +8,7 @@
 remove(list=ls())
 library(ezknitr)
 library(knitr)
+library(plotly)
 
 #' ## Load data
 #' 
@@ -64,11 +65,52 @@ tagged_tree2019[tagged_tree2019$Tag.Number=="24",]
 tagged_tree2019 <- subset(x = tagged_tree2019, DBH..cm.!=30.1)
 
 tagged_tree2019[tagged_tree2019$Tag.Number=="24",]
+
+
+#' ## Step Three: Make columns consistent but with year
 #' 
+#' 
+colnames(tagged_tree2018)
+colnames(tagged_tree2019)
+
+colnames(tagged_tree2018) <- c("date2018", 
+                               "plot2018",
+                               "X2018",
+                               "Y2018",
+                               "type2018",
+                               "common.name2018",
+                               "genus2018",
+                               "species2018",
+                               "distance2018",
+                               "direction2018",
+                               "height2018", 
+                               "stems2018",
+                               "dbh2018",
+                               "tag.number2018")
+
+colnames(tagged_tree2019) <- c("date2019", 
+                               "plot2019",
+                               "X2019",
+                               "Y2019",
+                               "type2019",
+                               "common.name2019",
+                               "genus2019",
+                               "species2019",
+                               "distance2019",
+                               "direction2019",
+                               "stems2019",
+                               "dbh2019",
+                               "tag.number2019")
 
 
+#' ## Step Four: Merge based on tree tag number
+#' 
+tree_merge <- merge(x = tagged_tree2018, y= tagged_tree2019, 
+                    by.x = "tag.number2018", by.y = "tag.number2019")
 
-
+#' ## Step Five: Calculate DBH growth
+#' 
+tree_merge$dbh.diff <- as.numeric(tree_merge$dbh2019) - as.numeric(tree_merge$dbh2018)
 
 #' ## Save data
 #' 
