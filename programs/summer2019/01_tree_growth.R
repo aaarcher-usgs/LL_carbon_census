@@ -28,6 +28,7 @@ tree2018 <- all_data2018[all_data2018$Type=="Tree",]
 
 tree2019 <- all_data2019[all_data2019$Type=="tree",]
 
+
 #' after subsetting trees, we noticed that there are 2x more trees this year
 #' then last year. We might have data being read twice, or there are more
 #' trees this year because of growth.
@@ -110,7 +111,52 @@ tree_merge <- merge(x = tagged_tree2018, y= tagged_tree2019,
 
 #' ## Step Five: Calculate DBH growth
 #' 
-tree_merge$dbh.diff <- as.numeric(tree_merge$dbh2019) - as.numeric(tree_merge$dbh2018)
+tree_merge$dbh.diff <- as.numeric(tree_merge$dbh2019) - 
+  as.numeric(tree_merge$dbh2018)
+
+
+
+#' Trying out making a polar plot using 2018 data
+#' 
+plot10_2018 <- plot_ly(type='scatterpolar',
+                       r= c())
+
+#' We need to figure out how to specifically call up one plot at a time.
+#'
+plot10_2018 <- tagged_tree2018[as.numeric(tagged_tree2018$plot2018==10)]
+
+#' These sort data into just the plots and by year
+#' 
+plot3_2018 <- tagged_tree2018[tagged_tree2018$plot2018==3,] 
+
+plot3_2019 <- tagged_tree2019[tagged_tree2019$plot2019==3,] 
+
+
+plot6_2018 <- tagged_tree2018[tagged_tree2018$plot2018==6,] 
+
+plot6_2019 <- tagged_tree2019[tagged_tree2019$plot2019==6,] 
+
+
+plot9_2018 <- tagged_tree2018[tagged_tree2018$plot2018==9,] 
+
+plot9_2019 <- tagged_tree2019[tagged_tree2019$plot2019==9,] 
+
+
+plot10_2018 <- tagged_tree2018[tagged_tree2018$plot2018==10,] 
+
+plot10_2019 <- tagged_tree2019[tagged_tree2019$plot2019==10,] 
+
+
+plot22_2018 <- tagged_tree2018[tagged_tree2018$plot2018==22,] 
+
+plot22_2019 <- tagged_tree2019[tagged_tree2019$plot2019==22,] 
+
+
+plot26_2018 <- tagged_tree2018[tagged_tree2018$plot2018==26,] 
+
+plot26_2019 <- tagged_tree2019[tagged_tree2019$plot2019==26,] 
+
+
 
 #' ## Save data
 #' 
