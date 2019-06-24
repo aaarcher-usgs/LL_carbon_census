@@ -9,6 +9,7 @@ remove(list=ls())
 library(ezknitr)
 library(knitr)
 library(plotly)
+library(gridExtra)
 
 #' ## Load data
 #' 
@@ -118,8 +119,7 @@ tree_merge$dbh.diff <- as.numeric(tree_merge$dbh2019) -
 
 #' Trying out making a polar plot using 2018 data
 #' 
-plot10_2018 <- plot_ly(type='scatterpolar',
-                       r= c())
+
 
 #' We need to figure out how to specifically call up one plot at a time.
 #'
@@ -156,6 +156,19 @@ plot26_2018 <- tagged_tree2018[tagged_tree2018$plot2018==26,]
 
 plot26_2019 <- tagged_tree2019[tagged_tree2019$plot2019==26,] 
 
+#' Plots of trees (polar plot)
+#'
+plot6.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot6_2018$distance2018, 
+                      theta = plot6_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot6.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot6_2019$distance2019, 
+                      theta = plot6_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot6.2018, plot6.2019)
 
 
 #' ## Save data
