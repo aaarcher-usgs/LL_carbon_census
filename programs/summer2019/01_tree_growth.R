@@ -9,7 +9,6 @@ remove(list=ls())
 library(ezknitr)
 library(knitr)
 library(plotly)
-library(gridExtra)
 
 #' ## Load data
 #' 
@@ -169,6 +168,140 @@ plot6.2019 <- plot_ly(type='scatterpolar',
                       mode = "markers",
                       name = "2019")
 subplot(plot6.2018, plot6.2019)
+
+plot3.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot3_2018$distance2018, 
+                      theta = plot3_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot3.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot3_2019$distance2019, 
+                      theta = plot3_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot3.2018, plot3.2019)
+
+plot9.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot9_2018$distance2018, 
+                      theta = plot9_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot9.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot9_2019$distance2019, 
+                      theta = plot9_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot9.2018, plot9.2019)
+
+plot10.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot10_2018$distance2018, 
+                      theta = plot10_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot10.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot10_2019$distance2019, 
+                      theta = plot10_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot10.2018, plot10.2019)
+
+plot22.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot22_2018$distance2018, 
+                      theta = plot22_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot22.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot22_2019$distance2019, 
+                      theta = plot22_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot22.2018, plot22.2019)
+
+plot26.2018 <- plot_ly(type='scatterpolar', 
+                      r = plot26_2018$distance2018, 
+                      theta = plot26_2018$direction2018,
+                      mode = "markers", 
+                      name = "2018")
+plot26.2019 <- plot_ly(type='scatterpolar', 
+                      r = plot26_2019$distance2019, 
+                      theta = plot26_2019$direction2019,
+                      mode = "markers",
+                      name = "2019")
+subplot(plot26.2018, plot26.2019)
+
+#' Call all trees, not just tagged
+#' 
+plot3_2018_all <- tree2018[tree2018$Plot==3,] 
+
+plot3_2019_all <- tree2019[tree2019$Plot==3,]
+
+plot3.2018.all <- plot_ly(type='scatterpolar', 
+                           r = plot3_2018_all$Distance..m., 
+                           theta = plot3_2018_all$Direction....,
+                           mode = "markers", 
+                           name = "2018")
+
+plot3.2019.all <- plot_ly(type='scatterpolar', 
+                          r = plot3_2019_all$Distance..m., 
+                          theta = plot3_2019_all$Direction..deg.,
+                          mode = "markers", 
+                          name = "2019")
+
+subplot(plot3.2018.all, plot3.2019.all)
+
+plot6_2018_all <- tree2018[tree2018$Plot==6,] 
+
+plot6_2019_all <- tree2019[tree2019$Plot==6,]
+
+plot6.2018.all <- plot_ly(type='scatterpolar', 
+                          r = plot6_2018_all$Distance..m., 
+                          theta = plot6_2018_all$Direction....,
+                          mode = "markers", 
+                          name = "2018")
+
+plot6.2019.all <- plot_ly(type='scatterpolar', 
+                          r = plot6_2019_all$Distance..m., 
+                          theta = plot6_2019_all$Direction..deg.,
+                          mode = "markers", 
+                          name = "2019")
+
+subplot(plot6.2018.all, plot6.2019.all)
+
+plot9_2018_all <- tree2018[tree2018$Plot==9,] 
+
+plot9_2019_all <- tree2019[tree2019$Plot==9,]
+
+plot9.2018.all <- plot_ly(type='scatterpolar', 
+                          r = plot9_2018_all$Distance..m., 
+                          theta = plot9_2018_all$Direction....,
+                          mode = "markers", 
+                          name = "2018")
+
+plot9.2019.all <- plot_ly(type='scatterpolar', 
+                          r = plot9_2019_all$Distance..m., 
+                          theta = plot9_2019_all$Direction..deg.,
+                          mode = "markers", 
+                          name = "2019")
+
+subplot(plot9.2018.all, plot9.2019.all)
+
+plot8_2018_all <- tree2018[tree2018$Plot==8,] 
+
+plot8_2019_all <- tree2019[tree2019$Plot==8,]
+
+plot8.2018.all <- plot_ly(type='scatterpolar', 
+                          r = plot8_2018_all$Distance..m., 
+                          theta = plot8_2018_all$Direction....,
+                          mode = "markers", 
+                          name = "2018")
+
+plot8.2019.all <- plot_ly(type='scatterpolar', 
+                          r = plot8_2019_all$Distance..m., 
+                          theta = plot8_2019_all$Direction..deg.,
+                          mode = "markers", 
+                          name = "2019")
+
+subplot(plot8.2018.all, plot8.2019.all)
 
 
 #' ## Save data
