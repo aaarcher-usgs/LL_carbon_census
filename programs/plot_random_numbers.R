@@ -30,3 +30,26 @@ rs_subplots_2018a$direction <- runif(n = 84, min = 0, max = 360)
 #' Save as csv
 write.csv(x = rs_subplots_2018a, 
           file = "research_methods/soil_respiration/rs_subplots_2018a.csv")
+
+#' ______________________________________________________
+#' ## 2019
+#' 
+rs_subplots_2019 <- as.data.frame(matrix(data = NA, nrow = 90, ncol = 4))
+#' Name each column
+colnames(rs_subplots_2019) <- c("plot", "subplot", "distance", "direction")
+
+#' Name plots
+rs_subplots_2019$plot <- rep(1:30, each = 3)
+
+#' Name subplots
+rs_subplots_2019$subplot <- rep(1:3, times = 30)
+
+#' Generate distances from center
+rs_subplots_2019$distance <- runif(n = 90, min = 0, max = 5)
+
+#' Generate angles from N (0 degrees)
+rs_subplots_2019$direction <- runif(n = 90, min = 0, max = 360)
+
+#' Save as csv
+write.csv(x = rs_subplots_2019, 
+          file = "research_methods/soil_respiration/rs_subplots_2019.csv")
